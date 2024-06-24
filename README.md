@@ -22,6 +22,6 @@ Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field "l
 - Khởi chạy rồi đóng Balatro để tái thiết tuỳ chọn ngôn ngữ.
 - Trả các thư mục ở trên về chỗ cũ.
 
-# Danh sách tính năng đang chờ
+# Danh sách tính năng/công việc đang chờ
 - Đóng góp để mở rộng hỗ trợ dịch thuật cho Steamodded
 - Việt hoá hoàn toàn giao diện Steamodded trong game
