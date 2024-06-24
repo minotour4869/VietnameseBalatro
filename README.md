@@ -16,7 +16,7 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Lưu ý
-Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field "localization" (a nil value)`
+Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`
 ## Cách giải quyết:
 - Kéo toàn bộ các thư mục chứa các bản mod cũng như thư mục Steamodded ra khỏi thư mục Mods.
 - Khởi chạy rồi đóng Balatro để tái thiết tuỳ chọn ngôn ngữ.
