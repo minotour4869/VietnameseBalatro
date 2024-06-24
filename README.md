@@ -11,14 +11,18 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 
 ## Cài đặt thủ công
 - Không có cài đặt tự động nha, dùng Steamodded thì phải làm quen với điều đó.
-- Work in progress
+- [Nhấn vào đây](https://github.com/HuyTheKiller/VietnameseBalatro/archive/refs/heads/main.zip) để tải bản mod này xuống.
+- Giải nén rồi kéo thả thư mục VietnameseBalatro vào trong thư mục Mods. Địa chỉ tương ứng của nó sẽ là:
+**Windows:** `%AppData%/Balatro`
+**Mac:** `~/Library/Application Support/Balatro`
+**Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Lưu ý
 Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field "localization" (a nil value)`
 ## Cách giải quyết:
-- Kéo toàn bộ các tập tin chứa các bản mod cũng như tập tin Steamodded ra khỏi tập tin Mods.
+- Kéo toàn bộ các thư mục chứa các bản mod cũng như thư mục Steamodded ra khỏi thư mục Mods.
 - Khởi chạy rồi đóng Balatro để tái thiết tuỳ chọn ngôn ngữ.
-- Trả các tập tin ở trên về chỗ cũ.
+- Trả các thư mục ở trên về chỗ cũ.
 
 # Danh sách tính năng đang chờ
 - Đóng góp để mở rộng hỗ trợ dịch thuật cho Steamodded
