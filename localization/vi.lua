@@ -3932,6 +3932,9 @@
             b_by = ' Bởi: ',
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
+            b_cardcolour = 'Màu Lá Bài',
+			b_cardcolourdef = 'Mặc Định',
+			b_cardcolourhi = 'Tương Phản Cao',
             ------------------------------------------------------------------------------------------------------------------------
         },
         v_dictionary = {
