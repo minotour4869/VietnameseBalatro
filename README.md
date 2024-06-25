@@ -17,7 +17,8 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 
 # Lưu ý
 Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`
-## Cách giải quyết:
+Để hạn chế tối đa điều đó, trả về tiếng Anh trước khi đóng Balatro.
+## Cách giải quyết nếu nó xảy ra:
 - Kéo toàn bộ các thư mục chứa các bản mod cũng như thư mục Steamodded ra khỏi thư mục Mods.
 - Khởi chạy rồi đóng Balatro để tái thiết tuỳ chọn ngôn ngữ.
 - Trả các thư mục ở trên về chỗ cũ.
