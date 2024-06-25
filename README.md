@@ -19,10 +19,18 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 - Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`
 - Để hạn chế tối đa điều đó, trả về tiếng Anh trước khi đóng Balatro.
 ## Cách giải quyết nếu nó xảy ra:
-- Kéo toàn bộ các thư mục chứa các bản mod cũng như thư mục Steamodded ra khỏi thư mục Mods.
-- Khởi chạy rồi đóng Balatro để tái thiết tuỳ chọn ngôn ngữ.
-- Trả các thư mục ở trên về chỗ cũ.
-
+1. Nếu bạn dùng Windows:
+- Đổi tên tệp version.dll
+- Khởi chạy Balatro từ Steam để tái thiết tuỳ chọn ngôn ngữ
+- Trả tên tệp về như cũ
+2. Nếu bạn dùng Linux (WINE/Proton):
+- Đổi tên tệp version.dll
+- Xoá dòng lệnh `WINEDLLOVERRIDES="version=n,b" %command%` khỏi tuỳ chọn khởi động của Steam
+- Khởi chạy Balatro từ Steam để tái thiết tuỳ chọn ngôn ngữ
+- Trả tên tệp về như cũ, thêm lại dòng lệnh trên vào tuỳ chọn khởi động của Steam
+3. Nếu bạn dùng Mac (khá tiện):
+- Khi dùng lovely, bạn phải chạy dòng lệnh `sh địa_chỉ/đến_tệp/run_lovely.sh` trong Terminal
+- Vì thế nên chỉ cần khởi chạy Balatro từ Steam để tái thiết tuỳ chọn ngôn ngữ
 # Danh sách tính năng/công việc đang chờ
 - Đóng góp để mở rộng hỗ trợ dịch thuật cho Steamodded
 - Việt hoá hoàn toàn giao diện Steamodded trong game
