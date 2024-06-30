@@ -4160,7 +4160,7 @@
                 "số {C:red}Lượt Bỏ Bài{} mỗi ván thôi"
             },
             fh_8 = {
-                "Ghi {C:attention}300 Chip{} trước khi",
+                "Đạt {C:attention}300 Chip{} trước khi",
                 "bạn hết {C:blue}Tay bài",
                 "để thắng ván này.",
                 "Chúc may mắn!"
@@ -4188,8 +4188,8 @@
                 "mới từ trong {C:attention}Shop"
             },
             s_2 = {
-                "Hãy thử mua lá",
-                "Quỷ \"đẹp choai\" này nào"
+                "Hãy thử mua lá hề",
+                "\"đẹp choai\" này nào"
             },
             s_3 = {
                 "Đây là một trong số {C:attention}#1#",
