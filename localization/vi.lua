@@ -4099,7 +4099,7 @@
                 "để bắt đầu ván chơi nào!"
             },
             bb_1 = {
-                "Chọn tiếp đón{C:attention}Big Blind",
+                "Chọn tiếp đón {C:attention}Big Blind",
                 "sẽ được nhận chút tiền đó;"
             },
             bb_2 = {
