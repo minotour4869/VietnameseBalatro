@@ -1121,7 +1121,7 @@
             j_hallucination = {
                 name = "Ảo Giác",
                 text = {
-                    "Xác suất {C:green}#1# trện #2#{} để tạo",
+                    "Xác suất {C:green}#1# trên #2#{} để tạo",
                     "ra một lá {C:tarot}Tarot{} khi bất kì",
                     "{C:attention}Gói Bài{} nào được mở",
                     "{C:inactive}(Phải có ô trống)"
