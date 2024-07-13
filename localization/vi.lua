@@ -3936,6 +3936,9 @@
 			b_card_colours_def = 'Mặc Định',
 			b_card_colours_hi = 'Tương Phản Cao',
             ------------------------------------------------------------------------------------------------------------------------
+            k_voucher_restock_1 = "ĐÁNH BẠI",
+            k_voucher_restock_2 = "BOSS BLIND",
+            k_voucher_restock_3 = "ĐỂ THAY MỚI",
         },
         v_dictionary = {
             a_xmult = "X#1# Nhân",
