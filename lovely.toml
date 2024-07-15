@@ -26,14 +26,3 @@ pattern = '''{n=G.UIT.T, config={text = 'TO RESTOCK', scale = 0.4, colour = G.C.
 position = "at"
 payload = '''{n=G.UIT.T, config={text = localize('k_voucher_restock_3'), scale = 0.4, colour = G.C.WHITE}}'''
 match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "localization/en-us.lua"
-pattern = '''k_eroded_ex = "Eroded!",'''
-position = "after"
-payload = '''
-k_voucher_restock_1 = "DEFEAT",
-k_voucher_restock_2 = "BOSS BLIND",
-k_voucher_restock_3 = "TO RESTOCK",'''
-match_indent = true
