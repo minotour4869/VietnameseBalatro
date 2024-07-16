@@ -3701,7 +3701,7 @@
             k_edition = "Phiên Bản",
             k_hud_hands = "Tay Bài",
             k_hud_discards = "Lượt Bỏ",
-            k_lower_score = "điểm",
+            k_lower_score = "Điểm",
             k_arcana_pack = "Gói Thần Bí",
             k_celestial_pack = "Gói Thiên Thể",
             k_spectral_pack = "Gói Siêu Linh",
