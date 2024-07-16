@@ -3701,7 +3701,7 @@
             k_edition = "Phiên Bản",
             k_hud_hands = "Tay Bài",
             k_hud_discards = "Lượt Bỏ",
-            k_lower_score = "điểm",
+            k_lower_score = "Điểm",
             k_arcana_pack = "Gói Thần Bí",
             k_celestial_pack = "Gói Thiên Thể",
             k_spectral_pack = "Gói Siêu Linh",
@@ -3936,6 +3936,9 @@
 			b_card_colours_def = 'Mặc Định',
 			b_card_colours_hi = 'Tương Phản Cao',
             ------------------------------------------------------------------------------------------------------------------------
+            k_voucher_restock_1 = "ĐÁNH BẠI",
+            k_voucher_restock_2 = "BOSS BLIND",
+            k_voucher_restock_3 = "ĐỂ THAY MỚI",
         },
         v_dictionary = {
             a_xmult = "X#1# Nhân",
