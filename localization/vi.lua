@@ -1758,7 +1758,7 @@
                 },
                 unlock = {
                     "giảm số lá giữ trong tay",
-                    "xuống còn{C:attention}#1#{} lá"
+                    "xuống còn {C:attention}#1#{} lá"
                 }
             }
         },
