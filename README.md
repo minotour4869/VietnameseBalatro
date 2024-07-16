@@ -43,7 +43,7 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 # Vietnamese Balatro 🇻🇳
 
 This is a mod that adds Vietnamese translation to Balatro.
-Note that this project is independent of [Kanbei's mod](https://github.com/Kanbei-Kikuchiyo/balatro-vietnamese-translation), with the only noticable point that it uses the same font as the one you see in English.
+Note that this project is independent of [Kanbei's mod](https://github.com/Kanbei-Kikuchiyo/balatro-vietnamese-translation), with the only noticable point being that it uses the same font as the one you see in English.
 
 # How to install this mod
 
