@@ -3428,7 +3428,10 @@
             extreme_couponer = "Tín Đồ Mua Sắm",
             completionist = "Kẻ Chinh Phục",
             completionist_plus = "Kẻ Chinh Phục+",
-            completionist_plus_plus = "Kẻ Chinh Phục++", 
+            completionist_plus_plus = "Kẻ Chinh Phục++",
+            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
+            hidden_achievement = "???",
+            ------------------------------------------------------------------------------------------------------------------------
         },
         achievement_descriptions = {
             ante_up = "Đạt Ante 4",
@@ -3461,7 +3464,10 @@
             extreme_couponer = "Khám phá mọi loại phiếu",
             completionist = "Khám phá 100% bộ sưu tập",
             completionist_plus = "Thắng mọi bộ bài ở độ khó Cược Vàng",
-            completionist_plus_plus = "Dán Nhãn Vàng lên mọi Joker", 
+            completionist_plus_plus = "Dán Nhãn Vàng lên mọi Joker",
+            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
+            hidden_achievement = "Hãy chơi thêm để khám phá!",
+            ------------------------------------------------------------------------------------------------------------------------
         },
         challenge_names = {
             c_omelette_1 = "Trứng Ốp Lết",
@@ -3930,15 +3936,13 @@
 			b_authors = 'Người tạo',
             b_unknown = 'Không rõ',
             b_by = ' Bởi: ',
+            b_config = "Tuỳ Chọn",
+			b_additions = 'Phần Thêm',
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
-            b_card_colours = 'Màu Lá Bài',
-			b_card_colours_def = 'Mặc Định',
-			b_card_colours_hi = 'Tương Phản Cao',
-            ------------------------------------------------------------------------------------------------------------------------
-            k_voucher_restock_1 = "ĐÁNH BẠI",
-            k_voucher_restock_2 = "BOSS BLIND",
-            k_voucher_restock_3 = "ĐỂ THAY MỚI",
+            -- b_card_colours = 'Màu Lá Bài',
+			-- b_card_colours_def = 'Mặc Định',
+			-- b_card_colours_hi = 'Tương Phản Cao',
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_enabled"] = "Đã kích hoạt",
 			["jdis_hide_by_default"] = "Ẩn mặc định",
@@ -3955,6 +3959,9 @@
 			["jdis_inactive"] = "Không hiệu lực",
 			["jdis_all_suits"] = "Cả 4 chất",
             ------------------------------------------------------------------------------------------------------------------------
+            k_voucher_restock_1 = "ĐÁNH BẠI",
+            k_voucher_restock_2 = "BOSS BLIND",
+            k_voucher_restock_3 = "ĐỂ THAY MỚI",
         },
         v_dictionary = {
             a_xmult = "X#1# Nhân",
@@ -3999,6 +4006,9 @@
                 "Âm Tính",
                 "+#1# ô Tiêu Thụ"
             },
+            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
+            c_types = '#1# Loại',
+			cashout_hidden = '...và thêm #1# nữa',
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_odds"] = "#1# trên #2#",
             ------------------------------------------------------------------------------------------------------------------------
