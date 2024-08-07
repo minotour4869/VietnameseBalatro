@@ -3938,6 +3938,7 @@
             b_by = ' Bởi: ',
             b_config = "Tuỳ Chọn",
 			b_additions = 'Phần Thêm',
+            b_achievements = "Thành Tựu",
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
             -- b_card_colours = 'Màu Lá Bài',
