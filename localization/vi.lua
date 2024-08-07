@@ -3939,6 +3939,22 @@
             k_voucher_restock_1 = "ĐÁNH BẠI",
             k_voucher_restock_2 = "BOSS BLIND",
             k_voucher_restock_3 = "ĐỂ THAY MỚI",
+            ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
+            ["jdis_enabled"] = "Đã kích hoạt",
+			["jdis_hide_by_default"] = "Ẩn mặc định",
+			["jdis_hide_empty"] = "Ẩn trống",
+			["jdis_disable_collapse"] = "Tắt đóng sập",
+			["jdis_disable_perishable"] = "Tắt Ngắn Hạn",
+			["jdis_disable_rental"] = "Tắt Cho Thuê",
+			["jdis_modifiers"] = "Phần Biến Đổi",
+			["jdis_reminders"] = "Ghi Nhớ",
+			["jdis_extras"] = "Thêm",
+			["jdis_default_display"] = "Măc Định",
+			["jdis_small_display"] = "Đóng Sập",
+			["jdis_active"] = "Có hiệu lực!",
+			["jdis_inactive"] = "Không hiệu lực",
+			["jdis_all_suits"] = "Cả 4 chất",
+            ------------------------------------------------------------------------------------------------------------------------
         },
         v_dictionary = {
             a_xmult = "X#1# Nhân",
@@ -3982,7 +3998,10 @@
             ml_negative_consumable_desc = {
                 "Âm Tính",
                 "+#1# ô Tiêu Thụ"
-            }
+            },
+            ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
+            ["jdis_odds"] = "#1# trên #2#",
+            ------------------------------------------------------------------------------------------------------------------------
         },
         v_text = {
             ch_m_dollars = {
