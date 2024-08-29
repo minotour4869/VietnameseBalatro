@@ -3969,7 +3969,7 @@
             b_achievements = "Thành Tựu",
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
-            b_graphics_mipmap_level = "kích cỡ Mipmap",
+            b_graphics_mipmap_level = "Kích cỡ Mipmap",
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_enabled"] = "Đã kích hoạt",
 			["jdis_hide_by_default"] = "Ẩn mặc định",
