@@ -17,9 +17,10 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Lưu ý khi sử dụng mod
-- Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`
-- Để hạn chế tối đa điều đó, trả về tiếng Anh trước khi đóng Balatro.
-## Cách giải quyết nếu nó xảy ra:
+- ~~Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`~~
+- ~~Để hạn chế tối đa điều đó, trả về tiếng Anh trước khi đóng Balatro.~~
+- Có vẻ như Steamodded bản mới nhất đã khắc phục thành công lỗi trên.
+## Cách giải quyết nếu nó xảy ra trường hợp bạn đang dùng phiên bản cũ hơn của Steamodded:
 1. **Nếu bạn dùng Windows:**
 - Đổi tên tệp version.dll hoặc thư mục "Mods"
 - Khởi chạy Balatro từ Steam để tái thiết tuỳ chọn ngôn ngữ
@@ -58,9 +59,10 @@ Note that this project is independent of [Kanbei's mod](https://github.com/Kanbe
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Important notes while using this mod
-- There will be cases where Balatro crashes due to the following error: `attempt to index field 'localization' (a nil value)`
-- To minimize that, revert to English before closing Balatro.
-## How to solve the problem when it happens:
+- ~~There will be cases where Balatro crashes due to the following error: `attempt to index field 'localization' (a nil value)`~~
+- ~~To minimize that, revert to English before closing Balatro.~~
+- It seems like the newest alpha version of Steamodded has already addressed this issue.
+## How to solve the problem when it happens in case you're using an older Steamodded version:
 1. **If you're using Windows:**
 - Rename version.dll or the "Mods" folder
 - Launch Balatro via Steam to reset language option
