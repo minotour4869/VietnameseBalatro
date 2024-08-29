@@ -3386,6 +3386,24 @@
             ['3'] = "3",
             ['2'] = "2"
         },
+        collabs = {
+            Spades = {
+                ['1'] = 'Mặc Định', 
+                ['2'] = 'The Witcher',
+            },
+            Hearts = {
+                ['1'] = 'Mặc Định', 
+                ['2'] = 'Among Us'
+            },
+            Clubs = {
+                ['1'] = 'Mặc Định', 
+                ['2'] = 'Vampire Survivors'
+            },
+            Diamonds = {
+                ['1'] = 'Mặc Định', 
+                ['2'] = 'Dave the Diver'
+            },
+        },
         high_scores = {
             hand = "Tay Tốt Nhất",
             furthest_round = "Ván Cao Nhất",
@@ -3606,6 +3624,7 @@
             b_copy = "Sao Chép",
             b_credits = "Danh Đề",
             b_stats = "Thống Kê",
+            b_customize_deck = "Tuỳ Chỉnh Lá Bài",
             b_settings = "Cài Đặt",
             b_set_game = "Trò Chơi",
             b_set_video = "Hiển Thị",
