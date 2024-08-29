@@ -3339,6 +3339,14 @@
 					'nhưng đang dùng #2#.'
 				}
 			},
+            load_failure_p = {
+				text = {
+					'{C:attention}Xung đột tiền tố!{}',
+					'Tiền tố của mod này',
+					'bị trùng với 1 mod khác.',
+					'({C:attention}#1#{})'
+				}
+			},
 			load_disabled = {
                 text = {
                     'Mod này đã',
@@ -3939,8 +3947,6 @@
 			b_mods_cap = 'MOD',
             b_modded_version = 'Bản cài Mod!',
             b_steamodded = 'Steamodded',
-            b_steamodded_credits = ' Danh Đề Steamodded ',
-            b_steamodded_settings = ' Cài Đặt Steamodded ',
             b_open_mods_dir = 'Mở thư mục Mod',
             b_no_mods = 'Không phát hiện mod nào...',
             b_mod_list = 'Danh sách Mod đã kích hoạt',
@@ -3954,15 +3960,15 @@
             b_author = 'Người tạo',
 			b_authors = 'Người tạo',
             b_unknown = 'Không rõ',
+            b_lovely_mod = '(Mod Lovely thuần tuý) ',
             b_by = ' Bởi: ',
             b_config = "Tuỳ Chọn",
 			b_additions = 'Phần Thêm',
+            b_stickers = 'Nhãn',
             b_achievements = "Thành Tựu",
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
-            -- b_card_colours = 'Màu Lá Bài',
-			-- b_card_colours_def = 'Mặc Định',
-			-- b_card_colours_hi = 'Tương Phản Cao',
+            b_graphics_mipmap_level = "kích cỡ Mipmap",
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_enabled"] = "Đã kích hoạt",
 			["jdis_hide_by_default"] = "Ẩn mặc định",
@@ -4028,7 +4034,7 @@
             },
             ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
             c_types = '#1# Loại',
-			cashout_hidden = '...và thêm #1# nữa',
+			cashout_hidden = '...và thêm #1# mục nữa',
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_odds"] = "#1# trên #2#",
             ------------------------------------------------------------------------------------------------------------------------
