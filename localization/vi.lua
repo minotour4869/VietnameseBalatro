@@ -3801,6 +3801,7 @@
             k_choose = "Chọn",
             k_achievements_disabled = "Thành Tựu Đã Vô Hiệu Hoá",
             k_trophies_disabled = "Cúp Đã Vô Hiệu Hoá",
+            ph_display_stickers = "Hiển Thị Nhãn Cược trong Trân",
             ph_improve_run = "Cải thiện trận của bạn!",
             ph_no_boss_active = "không có boss hiệu lực",
             ph_sneak_peek = "Xem Trước",
