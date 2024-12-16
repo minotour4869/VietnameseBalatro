@@ -20,6 +20,7 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 - ~~Sẽ có trường hợp Balatro bị crash do lỗi: `attempt to index field 'localization' (a nil value)`~~
 - ~~Để hạn chế tối đa điều đó, trả về tiếng Anh trước khi đóng Balatro.~~
 - Có vẻ như Steamodded bản mới nhất đã khắc phục thành công lỗi trên.
+- Nếu bạn dùng Windows và gặp lỗi `'%AppData%\Balatro\Mods\VietnameseBalatro\fonts/m6x11plus.ttf' does not exist` thì hãy đi đến tệp VietnameseBalatro.lua và sửa `/` thành `\` theo hướng dẫn.
 ## Cách giải quyết nếu nó xảy ra trường hợp bạn đang dùng phiên bản cũ hơn của Steamodded:
 1. **Nếu bạn dùng Windows:**
 - Đổi tên tệp version.dll hoặc thư mục "Mods"
@@ -62,6 +63,7 @@ Note that this project is independent of [Kanbei's mod](https://github.com/Kanbe
 - ~~There will be cases where Balatro crashes due to the following error: `attempt to index field 'localization' (a nil value)`~~
 - ~~To minimize that, revert to English before closing Balatro.~~
 - It seems like the newest alpha version of Steamodded has already addressed this issue.
+- If you're using Windows and encounter `'%AppData%\Balatro\Mods\VietnameseBalatro\fonts/m6x11plus.ttf' does not exist`, go to VietnameseBalatro.lua and change `/` to `\` according to the instructions.
 ## How to solve the problem when it happens in case you're using an older Steamodded version:
 1. **If you're using Windows:**
 - Rename version.dll or the "Mods" folder

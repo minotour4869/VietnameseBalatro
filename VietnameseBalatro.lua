@@ -3,6 +3,7 @@
 --- MOD_ID: VNBalatro
 --- MOD_AUTHOR: [HuyTheKiller]
 --- MOD_DESCRIPTION: Adds Vietnamese translation to Balatro while using a modified version of m6x11plus. Thêm tiếng Việt vào Balatro trong khi dùng một phiên bản đã chỉnh sửa của m6x11plus.
+--- PRIORITY: 9999999999
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
@@ -10,14 +11,14 @@ SMODS.Language({
 	key = "vi",
 	label = "Tiếng Việt",
 	font = {
-		file = SMODS.current_mod.path.."fonts/m6x11plus.ttf",
+		file = SMODS.current_mod.path.."fonts/m6x11plus.ttf", -- if on Windows, change / to \ -- sửa / thành \
 		render_scale = G.TILESIZE*10,
 		TEXT_HEIGHT_SCALE = 0.83,
 		TEXT_OFFSET = {x=10,y=-20},
 		FONTSCALE = 0.1,
 		squish = 1,
 		DESCSCALE = 1,
-		FONT = love.graphics.newFont(SMODS.current_mod.path.."fonts/m6x11plus.ttf", G.TILESIZE*10)
+		FONT = love.graphics.newFont(SMODS.current_mod.path.."fonts/m6x11plus.ttf", G.TILESIZE*10) -- here as well -- đây nữa
 	},
 	beta = true,
 	button = "Phản Hồi Ngôn Ngữ (vô dụng)",
