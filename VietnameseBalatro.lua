@@ -5,6 +5,7 @@
 --- MOD_DESCRIPTION: Adds Vietnamese translation to Balatro while using a modified version of m6x11plus. Thêm tiếng Việt vào Balatro trong khi dùng một phiên bản đã chỉnh sửa của m6x11plus.
 --- PRIORITY: 9999999999
 --- DISPLAY_NAME: Vietnamese Balatro
+--- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-1216a]
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
