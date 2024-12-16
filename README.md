@@ -12,7 +12,7 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 
 ## Cài đặt thủ công
 - Không có cài đặt tự động nha, dùng Steamodded thì phải làm quen với điều đó.
-- Đến trang [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases/tag/v1.0.0) để tải bản mod này xuống.
+- Đến trang [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases) và chọn phiên bản mới nhất để tải bản mod này xuống.
 - Giải nén rồi kéo thả thư mục "VietnameseBalatro" vào trong thư mục "Mods". Địa chỉ tương ứng của nó sẽ là:
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
@@ -54,7 +54,7 @@ Note that this project is independent of [Kanbei's mod](https://github.com/Kanbe
 
 ## Manual installation
 - There is no "automatic" installation, which is a very common thing when using Steamodded. Just don't complain please.
-- Head to the [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases/tag/v1.0.0) page to download this mod.
+- Head to the [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases) page and select the latest version to download this mod.
 - Unzip the archive then drag and drop the "VietnameseBalatro" folder into "Mods". Its respective directory for each OS will be:
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
