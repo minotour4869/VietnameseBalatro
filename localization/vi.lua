@@ -3347,6 +3347,14 @@
 					'({C:attention}#1#{})'
 				}
 			},
+            load_failure_m = {
+                text = {
+                    '{C:attention}Tệp Chính Không Tìm Thấy!{}',
+                    'Tệp chính của mod này',
+                    'không thể được tìm thấy.',
+                    '({C:attention}#1#{})'
+                }
+            },
 			load_disabled = {
                 text = {
                     'Mod này đã',
@@ -3398,18 +3406,30 @@
             Spades = {
                 ['1'] = 'Mặc Định', 
                 ['2'] = 'The Witcher',
+                ['3'] = 'Cyberpunk 2077',
+                ['4'] = 'Shovel Knight',
+                ['5'] = 'Don\'t Starve',
             },
             Hearts = {
                 ['1'] = 'Mặc Định', 
-                ['2'] = 'Among Us'
+                ['2'] = 'Among Us',
+                ['3'] = 'The Binding of Isaac',
+                ['4'] = 'Cult of the Lamb',
+                ['5'] = 'Divinity Original Sin 2',
             },
             Clubs = {
                 ['1'] = 'Mặc Định', 
-                ['2'] = 'Vampire Survivors'
+                ['2'] = 'Vampire Survivors',
+                ['3'] = 'Slay the Spire',
+                ['4'] = 'Potion Craft',
+                ['5'] = 'Warframe',
             },
             Diamonds = {
                 ['1'] = 'Mặc Định', 
-                ['2'] = 'Dave the Diver'
+                ['2'] = 'Dave the Diver',
+                ['3'] = 'Stardew Valley',
+                ['4'] = 'Enter the Gungeon',
+                ['5'] = '1000xRESIST',
             },
         },
         high_scores = {
@@ -3970,6 +3990,16 @@
             b_applies_stakes_1 = 'Áp dụng ',
 			b_applies_stakes_2 = '',
             b_graphics_mipmap_level = "Kích cỡ Mipmap",
+            b_browse = 'Duyệt',
+			b_search_prompt = 'Tìm mod',
+			b_search_button = 'Tìm kiếm',
+            b_seeded_unlocks = 'Giống Mở Khoá',
+            b_seeded_unlocks_info = 'Cho phép mở khoá trong trận chơi bằng giống',
+            ml_achievement_settings = {
+                'Tắt',
+                'Bật',
+                'Bỏ Hạn Chế'
+            },
             ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
             ["jdis_enabled"] = "Đã kích hoạt",
 			["jdis_hide_by_default"] = "Ẩn mặc định",
@@ -3985,7 +4015,17 @@
 			["jdis_active"] = "Có hiệu lực!",
 			["jdis_inactive"] = "Không hiệu lực",
 			["jdis_all_suits"] = "Cả 4 chất",
-            ------------------------------------------------------------------------------------------------------------------------
+            ----------------------------------- Phần dùng cho Nopeus - cần phiên bản đã Việt hoá -----------------------------------
+            nopeus_ff = "Siêu Tốc",
+            nopeus_popup = "Chữ Lá Bài Nổi Lên",
+            nopeus_off = "Tắt",
+            nopeus_on = "Bật",
+            nopeus_unsafe = "Ko An Toàn",
+            nopeus_alltext = "Tất Cả",
+            nopeus_noagain = 'Không "Lần Nữa!"',
+            nopeus_nomisc = "Không mục khác",
+            nopeus_notext = "Không hiển thị",
+            ------------------------------------- Deprecated - remnant of ancient local commit -------------------------------------
             k_voucher_restock_1 = "ĐÁNH BẠI",
             k_voucher_restock_2 = "BOSS BLIND",
             k_voucher_restock_3 = "ĐỂ THAY MỚI",
