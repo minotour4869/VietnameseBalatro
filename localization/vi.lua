@@ -996,7 +996,7 @@
                     "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
                     "mỗi khi một {C:attention}lá bài thường",
                     "được thêm vào bộ bài của bạn",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Mult)"
+                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 }
             },
             j_vagabond = {
