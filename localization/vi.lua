@@ -258,7 +258,7 @@
             j_chaos = {
                 name = "Hề Chaos",
                 text = {
-                    "{C:attention}#1#{} {C:green}lượt Roll lại",
+                    "{C:attention}#1#{} {C:green}lượt Gieo lại",
                     "miễn phí mỗi shop"
                 }
             },
@@ -1171,7 +1171,7 @@
                 name = "Thẻ Ghi Nhớ",
                 text = {
                     "Joker này thêm {C:mult}+#1#{} Nhân",
-                    "mỗi lần {C:attention}roll lại{} trong shop",
+                    "mỗi lượt {C:attention}gieo lại{} trong shop",
                     "{C:inactive}(Hiện tại là {C:mult}+#2#{C:inactive} Nhân)"
                 }
             },
@@ -1475,9 +1475,9 @@
                 }
             },
             v_reroll_surplus = {
-                name = "Roll Thặng Dư",
+                name = "Gieo Thặng Dư",
                 text = {
-                    "Mỗi lượt roll lại tiết kiệm",
+                    "Mỗi lượt gieo lại tiết kiệm",
                     "được {C:money}$#1#"
                 }
             },
@@ -1544,9 +1544,9 @@
             v_directors_cut = {
                 name = "Nguyên Bản Đạo Diễn",
                 text = {
-                    "Roll lại Boss Blind",
+                    "Gieo lại Boss Blind",
                     "{C:attention}1{} lần mỗi Ante,",
-                    "{C:money}$#1#{} mỗi lần roll"
+                    "{C:money}$#1#{} mỗi lượt gieo"
                 }
             },
             v_paint_brush = {
@@ -1622,13 +1622,13 @@
                 }
             },
             v_reroll_glut = {
-                name = "Roll Thừa Thãi",
+                name = "Gieo Thừa Thãi",
                 text = {
-                    "Mỗi lượt roll lại tiết kiệm",
+                    "Mỗi lượt gieo lại tiết kiệm",
                     "được {C:money}$#1#"
                 },
                 unlock = {
-                    "Roll lại shop",
+                    "Gieo lại shop",
                     "tổng cộng {C:attention}#1#{} lần",
                     "{C:inactive}(#2#)"
                 }
@@ -1742,9 +1742,9 @@
             v_retcon = {
                 name = "Trinh Sát",
                 text = {
-                    "Roll lại Boss Blind",
+                    "Gieo lại Boss Blind",
                     "{C:attention}không giới hạn{} số lần,",
-                    "{C:money}$#1#{} mỗi lần roll"
+                    "{C:money}$#1#{} mỗi lượt gieo"
                 },
                 unlock = {
                     "Khám phá",
@@ -2436,7 +2436,7 @@
             tag_boss = {
                 name = "Nhãn Boss",
                 text = {
-                    "Roll lại {C:attention}Boss Blind",
+                    "Gieo lại {C:attention}Boss Blind",
                     "của hiện tại"
                 }
             },
@@ -2510,7 +2510,7 @@
             tag_d_six = {
                 name = "Nhãn Xúc Sắc số 6",
                 text = {
-                    "Lượt roll lại trong shop",
+                    "Lượt gieo lại trong shop",
                     "tiếp theo bắt đầu từ {C:money}$0"
                 }
             },
@@ -3500,7 +3500,7 @@
             _100000k = "Đạt 100.000.000 Chip bằng một tay bài duy nhất",
             tiny_hands = "Làm mỏng bộ bài xuống 20 lá hoặc ít hơn",
             big_hands = "Sở hữu hơn 80 lá trong bộ bài",
-            you_get_what_you_get = "Thắng một trận mà không roll lại shop lần nào",
+            you_get_what_you_get = "Thắng một trận mà không gieo lại shop lần nào",
             rule_bender = "Hoàn thành bất kì trận thử thách nào",
             rule_breaker = "Hoàn thành mọi trận thử thách",
             legendary = "Khám phá một Joker Huyền Thoại",
@@ -3640,7 +3640,7 @@
             b_run_info_1 = "T.tin",
             b_run_info_2 = "Trận Này",
             b_options = "Tuỳ Chọn",
-            b_reroll_boss = "Roll lại Boss",
+            b_reroll_boss = "Gieo lại Boss",
             b_skip_blind = "Bỏ Qua Blind",
             b_skip_reward = "Thưởng Bỏ Qua",
             b_skip = "Bỏ Qua",
@@ -3730,7 +3730,7 @@
             k_round = "Ván",
             k_ante = "Ante",
             k_seed = "Giống",
-            k_reroll = "Roll lại",
+            k_reroll = "Gieo lại",
             k_mult = "Nhân",
             k_rank = "Bậc",
             k_suit = "Chất",
@@ -3863,7 +3863,7 @@
             ph_score_new_collection = "Khám Phá Mới",
             ph_score_cards_played = "Số Lá Bài Đã Chơi",
             ph_score_cards_discarded = "Số Lá Bài Đã Bỏ",
-            ph_score_times_rerolled = "Số lần Roll lại",
+            ph_score_times_rerolled = "Số lần Gieo lại",
             ph_score_cards_purchased = "Số Lá Bài Đã Mua",
             ph_unscored_hand = "Tay này sẽ không ghi điểm",
             ph_alert_debuff_confirm = "Nhấn 'Chơi' lại để xác nhận",
@@ -4091,7 +4091,7 @@
                 "{C:red}#1#{} lượt bỏ bài mỗi ván"
             },
             ch_m_reroll_cost = {
-                "{C:money}$#1#{} giá gốc để roll lại"
+                "{C:money}$#1#{} giá gốc để gieo lại"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} ô Joker"
