@@ -4033,7 +4033,7 @@
             ["gald_stake_colour"] = "Làm Mờ Cược",
             ["gald_stake_colour_options"] = {
                 "Làm mờ chưa thắng",    
-                "Đã làm đã thắng",
+                "Làm mờ đã thắng",
             },
             ["gald_stake_colour_desc"] = {
                 "Chọn loại cược nào bị làm mờ",
