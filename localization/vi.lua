@@ -4015,6 +4015,56 @@
 			["jdis_active"] = "Có hiệu lực!",
 			["jdis_inactive"] = "Không hiệu lực",
 			["jdis_all_suits"] = "Cả 4 chất",
+            ----------------------------------- Phần dùng cho Galdur - cần phiên bản đã Việt hoá -----------------------------------
+            ["gald_master"] = "Bật Galdur",
+            ["gald_use_desc"] = {
+                "Kích hoạt thiết lập Galdur"    
+            },
+            ["gald_anim"] = "Bật hoạt ảnh",
+            ["gald_anim_desc"] = {
+                "Kích hoạt hiệu ứng hoạt ảnh cho phần",
+                "xem trước bộ bài và chồng cược"
+            },
+            ["gald_reduce"] = "Giảm kích thước bộ bài",
+            ["gald_reduce_desc"] = {
+                "Giảm số lượng lá bài",
+                "trên màn hình"    
+            },
+            ["gald_stake_colour"] = "Làm Mờ Cược",
+            ["gald_stake_colour_options"] = {
+                "Làm mờ chưa thắng",    
+                "Đã làm đã thắng",
+            },
+            ["gald_stake_colour_desc"] = {
+                "Chọn loại cược nào bị làm mờ",
+                "trong màn hình chọn cược"
+            },
+            ["gald_stake_select"] = "Chọn Cược",
+            ["gald_stake_select_options"] = {
+                "Lần trước đó",    
+                "Mở khoá tiếp theo",
+                "Cược Trắng"
+            },
+            ["gald_stake_select_desc"] = {
+                "Chọn loại cược nào được bốc",
+                "mặc định trong màn hình chọn cược"
+            },
+            ["gald_unlock"] = "Mở khoá toàn bộ cược",
+            ["gald_unlock_desc"] = {
+                "Cho phép chọn và chơi bất kì loại cược nào"    
+            },
+            ["gald_select_deck"] = "Chọn Bộ Bài",
+            ["gald_select_stake"] = "Chọn Cược",
+            ["gald_play"] = "Chơi",
+            ["gald_selected"] = "ĐÃ CHỌN",
+            ["gald_locked"] = "Bị Khoá",
+            ["gald_unlock_1"] = "Thắng bằng bộ bài này ở ",
+            ["gald_unlock_and"] = " và ",
+            ["gald_new_page_error"] = "Lỗi thêm trang",
+            ["gald_quick_start"] = "Trận Trước Đó",
+            ["gald_random_deck"] = "Bộ Bài Ngẫu Nhiên",
+            ["gald_random_stake"] = "Cược Ngẫu Nhiên",
+            ------------------------------- Galdur loc is deprecated - made out of personal interest -------------------------------
             ----------------------------------- Phần dùng cho Nopeus - cần phiên bản đã Việt hoá -----------------------------------
             nopeus_ff = "Siêu Tốc",
             nopeus_popup = "Chữ Lá Bài Nổi Lên",
@@ -4025,7 +4075,7 @@
             nopeus_noagain = 'Không "Lần Nữa!"',
             nopeus_nomisc = "Không mục khác",
             nopeus_notext = "Không hiển thị",
-            ------------------------------------- Deprecated - remnant of ancient local commit -------------------------------------
+            ------------------------------- Nopeus loc is deprecated - made out of personal interest -------------------------------
             k_voucher_restock_1 = "ĐÁNH BẠI",
             k_voucher_restock_2 = "BOSS BLIND",
             k_voucher_restock_3 = "ĐỂ THAY MỚI",
