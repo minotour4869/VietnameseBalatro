@@ -75,7 +75,7 @@ end
 match_indent = true
 
 # Patch to un-hardcode "Not Allowed!" text
-# What kind of abomination is this? Localthunk really knows how to trigger translators huh?
+# What kind of abomination is this? LocalThunk really knows how to trigger translators huh?
 [[patches]]
 [patches.pattern]
 target = "functions/state_events.lua"
