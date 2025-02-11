@@ -50,7 +50,7 @@
             j_sly = {
                 name = "Joker Láu Cá",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh nếu",
+                    "{C:chips}+#1#{} Xu nếu",
                     "tay bài đã chơi",
                     "chứa {C:attention}#2#"
                 }
@@ -58,7 +58,7 @@
             j_wily = {
                 name = "Joker Xảo Quyệt",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh nếu",
+                    "{C:chips}+#1#{} Xu nếu",
                     "tay bài đã chơi",
                     "chứa {C:attention}#2#"
                 }
@@ -66,7 +66,7 @@
             j_clever = {
                 name = "Joker Khéo Léo",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh nếu",
+                    "{C:chips}+#1#{} Xu nếu",
                     "tay bài đã chơi",
                     "chứa {C:attention}#2#"
                 }
@@ -74,7 +74,7 @@
             j_devious = {
                 name = "Joker Ranh Ma",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh nếu",
+                    "{C:chips}+#1#{} Xu nếu",
                     "tay bài đã chơi",
                     "chứa {C:attention}#2#"
                 }
@@ -82,7 +82,7 @@
             j_crafty = {
                 name = "Joker Xảo Trá",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh nếu",
+                    "{C:chips}+#1#{} Xu nếu",
                     "tay bài đã chơi",
                     "chứa {C:attention}#2#"
                 }
@@ -112,24 +112,24 @@
             j_drunkard = {
                 name = "Sâu Rượu",
                 text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:red}+#1#{} bỏ bài",
+                    "mỗi vòng"
                 }
             },
             j_stone = {
                 name = "Joker Đá",
                 text = {
-                    "Thêm {C:chips}+#1#{} Phỉnh với",
+                    "Thêm {C:chips}+#1#{} Xu với",
                     "mỗi {C:attention}Lá Đá{} trong",
                     "{C:attention}cả bộ bài{} của bạn",
-                    "{C:inactive}(Hiên tại là {C:chips}+#2#{C:inactive} Phỉnh)",
+                    "{C:inactive}(Hiên tại là {C:chips}+#2#{C:inactive} Xu)",
                 }
             },
             j_golden = {
                 name = "Joker Vàng",
                 text = {
                     "Nhận {C:money}$#1#{} ở",
-                    "cuối ván"
+                    "cuối vòng"
                 }
             },
             j_stencil = {
@@ -199,7 +199,7 @@
             j_ceremonial = {
                 name = "Dao Găm Hiến Tế",
                 text = {
-                    "Khi {C:attention}Blind{} được chọn,",
+                    "Khi {C:attention}Mức Cược{} được chọn,",
                     "phá huỷ Joker liền phải",
                     "và vĩnh viễn thêm {C:attention}hai lần",
                     "giá bán của nó vào hệ số {C:red}Nhân",
@@ -209,8 +209,8 @@
             j_banner = {
                 name = "Ngọn Cờ",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh cho",
-                    "mỗi {C:attention}lượt bỏ bài",
+                    "{C:chips}+#1#{} Xu cho",
+                    "mỗi {C:attention}bỏ bài",
                     "còn lại"
                 }
             },
@@ -219,7 +219,7 @@
                 text = {
                     "{C:mult}+#1#{} Nhân",
                     "khi còn {C:attention}#2#",
-                    "lượt bỏ bài"
+                    "bỏ bài"
                 }
             },
             j_marble = {
@@ -227,7 +227,7 @@
                 text = {
                     "Thêm một lá {C:attention}Đá",
                     "vào bộ bài khi",
-                    "{C:attention}Blind{} được chọn",
+                    "{C:attention}Mức Cược{} được chọn",
                 }
             },
             j_loyalty_card = {
@@ -252,13 +252,13 @@
                 text = {
                     "Tái kích mọi lá bài",
                     "đã chơi trong {C:attention}tay bài",
-                    "{C:attention}cuối{} của ván"
+                    "{C:attention}cuối{} của vòng"
                 }
             },
             j_chaos = {
                 name = "Hề Chaos",
                 text = {
-                    "{C:attention}#1#{} {C:green}lượt Gieo lại",
+                    "{C:attention}#1#{} {C:green}lượt Đổi lại",
                     "miễn phí mỗi shop"
                 }
             },
@@ -297,7 +297,7 @@
                 name = "Gương Mặt Đáng Sợ",
                 text = {
                     "Lá {C:attention}mặt{} đã chơi",
-                    "ghi thêm {C:chips}+#1#{} Phỉnh",
+                    "ghi thêm {C:chips}+#1#{} Xu",
                     "khi ghi điểm"
                 }
             },
@@ -312,9 +312,9 @@
             j_delayed_grat = {
                 name = "Thù Lao Chậm Trễ",
                 text = {
-                    "Nhận {C:money}$#1#{} mỗi {C:attention}lượt bỏ bài{} nếu",
-                    "không dùng lượt bỏ bài nào",
-                    "cho đến cuối ván"
+                    "Nhận {C:money}$#1#{} mỗi {C:attention}bỏ bài{} nếu",
+                    "không dùng bỏ bài nào",
+                    "cho đến cuối vòng"
                 }
             },
             j_pareidolia = {
@@ -338,7 +338,7 @@
                     "{C:mult}+#1#{} Nhân",
                     "xác suất {C:green}#2# trên #3#",
                     "lá này bị phá huỷ",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_even_steven = {
@@ -355,7 +355,7 @@
                 text = {
                     "Lá đã chơi với",
                     "bậc {C:attention}lẻ{} ghi thêm",
-                    "{C:chips}+#1#{} Phỉnh khi ghi điểm",
+                    "{C:chips}+#1#{} Xu khi ghi điểm",
                     "{C:inactive}(A, 9, 7, 5, 3)"
                 }
             },
@@ -363,7 +363,7 @@
                 name = "Học Giả",
                 text = {
                     "Lá {C:attention}Át{} đã chơi",
-                    "ghi thêm {C:chips}+#2#{} Phỉnh",
+                    "ghi thêm {C:chips}+#2#{} Xu",
                     "và {C:mult}+#1#{} Nhân",
                     "khi ghi điểm"
                 }
@@ -407,7 +407,7 @@
                 name = "Joker Vũ Trụ",
                 text = {
                     "Xác suất {C:green}#1# trên #2#",
-                    "để nâng level của",
+                    "để nâng cấp của",
                     "{C:attention}tay poker{} đã chơi"
                 }
             },
@@ -416,15 +416,15 @@
                 text = {
                     "Tăng {C:money}$#1#",
                     "{C:attention}giá bán",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_burglar = {
                 name = "Kẻ Trộm",
                 text = {
-                    "Khi {C:attention}Blind{} được chọn,",
-                    "thêm {C:blue}+#1#{} Tay bài và",
-                    "{C:attention}mất toàn bộ lượt bỏ bài"
+                    "Khi {C:attention}Mức Cược{} được chọn,",
+                    "thêm {C:blue}+#1#{} Tay Bài và",
+                    "{C:attention}mất toàn bộ bỏ bài"
                 }
             },
             j_blackboard = {
@@ -438,24 +438,24 @@
             j_runner = {
                 name = "Chạy Việt Dã",
                 text = {
-                    "Thêm {C:chips}+#2#{} Phỉnh",
+                    "Thêm {C:chips}+#2#{} Xu",
                     "nếu tay bài đã chơi",
                     "chứa {C:attention}Sảnh",
-                    "{C:inactive}(Hiện tại là {C:chips}+#1#{C:inactive} Phỉnh)"
+                    "{C:inactive}(Hiện tại là {C:chips}+#1#{C:inactive} Xu)"
                 }
             },
             j_ice_cream = {
                 name = "Kem Ốc Quế",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh",
-                    "{C:chips}-#2#{} Phỉnh cho",
+                    "{C:chips}+#1#{} Xu",
+                    "{C:chips}-#2#{} Xu cho",
                     "mỗi tay bài đã chơi"
                 }
             },
             j_dna = {
                 name = "DNA",
                 text = {
-                    "Nếu {C:attention}tay đầu tiên{} của ván",
+                    "Nếu {C:attention}tay đầu tiên{} của vòng",
                     "chỉ có {C:attention}1{} lá, thêm một",
                     "bản sao vĩnh viễn vào bộ bài",
                     "và bốc nó lên {C:attention}tay"
@@ -471,15 +471,15 @@
             j_blue_joker = {
                 name = "Joker Lam",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh cho mỗi",
+                    "{C:chips}+#1#{} Xu cho mỗi",
                     "lá bài còn lại trong {C:attention}bộ bài",
-                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Phỉnh)"
+                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Xu)"
                 }
             },
             j_sixth_sense = {
                 name = "Giác Quan Thứ Sáu",
                 text = {
-                    "Nếu {C:attention}tay đầu tiên{} của ván",
+                    "Nếu {C:attention}tay đầu tiên{} của vòng",
                     "là một lá {C:attention}6{}, phá huỷ nó và",
                     "tạo ra một lá {C:spectral}Siêu Linh",
                     "{C:inactive}(Phải có ô trống)"
@@ -499,7 +499,7 @@
                 text = {
                     "Mỗi {C:attention}lá bài{} đã chơi",
                     "vĩnh viễn thêm",
-                    "{C:chips}+#1#{} Phỉnh khi ghi điểm"
+                    "{C:chips}+#1#{} Xu khi ghi điểm"
                 }
             },
             j_faceless = {
@@ -516,7 +516,7 @@
                     "Nhận {C:money}$#1#{} nếu {C:attention}tay poker",
                     "là {C:attention}#2#{},",
                     "tay poker thay đổi",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_ticket = {
@@ -548,7 +548,7 @@
                 name = "Diễn Xiếc",
                 text = {
                     "{X:red,C:white} X#1# {} Nhân cho {C:attention}tay bài",
-                    "{C:attention}cuối cùng{} của ván"
+                    "{C:attention}cuối cùng{} của vòng"
                 },
                 unlock = {
                     "Chơi {C:attention,E:1}#1#{} tay bài",
@@ -593,10 +593,10 @@
                 name = "Người Hát Rong",
                 text = {
                     "{C:attention}+#1#{} lá giữ trong tay,",
-                    "{C:blue}-#2#{} tay bài mỗi ván"
+                    "{C:blue}-#2#{} tay bài mỗi vòng"
                 },
                 unlock = {
-                    "Thắng {C:attention,E:1}#1#{} ván",
+                    "Thắng {C:attention,E:1}#1#{} vòng",
                     "liên tiếp chỉ bằng",
                     "1 tay bài duy nhất"
                 }
@@ -604,7 +604,7 @@
             j_certificate = {
                 name = "Chứng Chỉ",
                 text = {
-                    "Khi ván bắt đầu, thêm",
+                    "Khi vòng bắt đầu, thêm",
                     "một {C:attention}lá bài{} ngẫu nhiên với",
                     "một {C:attention}con dấu{} ngẫu nhiên",
                     "vào tay của bạn"
@@ -632,7 +632,7 @@
             j_throwback = {
                 name = "Hồi Tổ",
                 text = {
-                    "{X:mult,C:white} X#1# {} Nhân cho mỗi {C:attention}Blind",
+                    "{X:mult,C:white} X#1# {} Nhân cho mỗi {C:attention}Mức Cược",
                     "đã bỏ qua trong trận này",
                     "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 },
@@ -649,7 +649,7 @@
                     "thêm {C:attention}#1#{} lần"
                 },
                 unlock = {
-                    "Đánh bại một Mù Trùm",
+                    "Đánh bại một Cược Trùm",
                     "bằng {E:1,C:attention}#1#"
                 }
             },
@@ -685,7 +685,7 @@
                 text = {
                     "Lá bài đã chơi",
                     "có chất {C:spades}Bích{} ghi thêm",
-                    "{C:chips}+#1#{} Phỉnh khi ghi điểm",
+                    "{C:chips}+#1#{} Xu khi ghi điểm",
                 },
                 unlock = {
                     "Sở hữu ít nhất {E:1,C:attention}#1#",
@@ -728,8 +728,8 @@
                     "có thể xuất hiện nhiều lần"
                 },
                 unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Đạt Bàn",
+                    "thứ {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
@@ -741,8 +741,8 @@
                     "lá {C:hearts}Cơ{} và lá {C:spades}Bích"
                 },
                 unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Đạt Bàn",
+                    "thứ {E:1,C:attention}#1#"
                 }
             },
             j_blueprint = {
@@ -759,9 +759,9 @@
                 name = "Joker Nhỏ",
                 text = {
                     "Joker này thêm",
-                    "{C:chips}+#2#{} Phỉnh mỗi lá {C:attention}2",
+                    "{C:chips}+#2#{} Xu mỗi lá {C:attention}2",
                     "đã chơi ghi điểm",
-                    "{C:inactive}(Hiện tại {C:chips}+#1#{C:inactive} Phỉnh)"
+                    "{C:inactive}(Hiện tại {C:chips}+#1#{C:inactive} Xu)"
                 },
                 unlock = {
                     "Thắng một trận trong {E:1,C:attention}#1#",
@@ -771,8 +771,8 @@
             j_merry_andy = {
                 name = "Văn Vui Vẻ",
                 text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván,",
+                    "{C:red}+#1#{} bỏ bài",
+                    "mỗi vòng,",
                     "{C:red}#2#{} lá giữ trong tay"
                 },
                 unlock = {
@@ -799,7 +799,7 @@
                     "Mỗi lá {C:attention}#2# {V:1}#3#",
                     "ghi thêm {X:mult,C:white} X#1# {} Nhân",
                     "khi ghi điểm",
-                    "{s:0.8}Lá bài thay đổi sau mỗi ván"
+                    "{s:0.8}Lá bài thay đổi sau mỗi vòng"
                 },
                 unlock = {
                     "Trong một tay bài,",
@@ -825,12 +825,12 @@
                 text = {
                     "Nhận {C:money}$#1#{} nếu tay bài",
                     "đã chơi kích hoạt khả năng",
-                    "của {C:attention}Mù Trùm"
+                    "của {C:attention}Cược Trùm"
                 },
                 unlock = {
-                    "Đánh bại một Mù Trùm",
+                    "Đánh bại một Cược Trùm",
                     "bằng {E:1,C:attention}1 tạy{} mà",
-                    "không dùng lượt bỏ bài nào"
+                    "không dùng bỏ bài nào"
                 }
             },
             j_hit_the_road = {
@@ -838,7 +838,7 @@
                 text = {
                     "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
                     "cho mỗi lá {C:attention}Bồi",
-                    "bị bỏ trong ván này",
+                    "bị bỏ trong vòng này",
                     "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 },
                 unlock = {
@@ -917,7 +917,7 @@
                     "{X:mult,C:white} X#1# {} Nhân",
                     "xác suất {C:green}#2# trên #3#",
                     "lá này bị phá huỷ",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_card_sharp = {
@@ -926,7 +926,7 @@
                     "{X:mult,C:white} X#1# {} Nhân nếu",
                     "{C:attention}tay poker{} đã chơi",
                     "đã được chơi trước đó",
-                    "trong ván này"
+                    "trong vòng này"
                 }
             },
             j_red_card = {
@@ -941,8 +941,8 @@
             j_madness = {
                 name = "Điên Loạn",
                 text = {
-                    "Khi {C:attention}Small Blind{} hoặc {C:attention}Big Blind",
-                    "được chọn, thêm {X:mult,C:white} X#1# {} Nhân",
+                    "Khi bắt đầu {C:attention}Cược Nhỏ{} hoặc {C:attention}Cược Lớn,",
+                    "thêm {X:mult,C:white} X#1# {} Nhân",
                     "và {C:attention}phá huỷ{} một Joker ngẫu nhiên",
                     "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 }
@@ -950,10 +950,10 @@
             j_square = {
                 name = "Joker Vuông",
                 text = {
-                    "Joker này thêm {C:chips}+#2#{} Phỉnh",
+                    "Joker này thêm {C:chips}+#2#{} Xu",
                     "nếu tay bài đã chơi",
                     "chứa đúng {C:attention}4{} lá",
-                    "{C:inactive}(Hiện tại là {C:chips}#1#{C:inactive} Phỉnh)"
+                    "{C:inactive}(Hiện tại là {C:chips}#1#{C:inactive} Xu)"
                 }
             },
             j_seance = {
@@ -968,7 +968,7 @@
             j_riff_raff = {
                 name = "Hạ Lưu",
                 text = {
-                    "Khi {C:attention}Blind{} được chọn,",
+                    "Khi {C:attention}Mức Cược{} được chọn,",
                     "tạo ra {C:attention}#1# Joker {C:blue}Thường",
                     "{C:inactive}(Phải có ô trống)"
                 }
@@ -1021,16 +1021,16 @@
                 text = {
                     "Nhận {C:money}$#1#{} cho mỗi lá {C:attention}9",
                     "trong {C:attention}cả bộ bài{} của bạn",
-                    "ở cuối ván",
+                    "ở cuối vòng",
                     "{C:inactive}(Hiện tại là {C:money}$#2#{}{C:inactive})"
                 }
             },
             j_rocket = {
                 name = "Tên Lửa",
                 text = {
-                    "Nhận {C:money}$#1#{} ở cuối ván",
+                    "Nhận {C:money}$#1#{} ở cuối vòng",
                     "Tiền thưởng tăng thêm {C:money}$#2#",
-                    "khi {C:attention}Mù Trùm{} bị đánh bại",
+                    "khi {C:attention}Cược Trùm{} bị đánh bại",
                 }
             },
             j_obelisk = {
@@ -1056,7 +1056,7 @@
                 text = {
                     "Bán lá này để",
                     "vô hiệu hoá khả năng của",
-                    "{C:attention}Mù Trùm{} hiện tại",
+                    "{C:attention}Cược Trùm{} hiện tại",
                 }
             },
             j_photograph = {
@@ -1073,14 +1073,14 @@
                     "Thêm {C:money}$#1#{} {C:attention}giá bán",
                     "vào mỗi lá {C:attention}Joker",
                     "và lá {C:attention}Bổ Trợ",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_turtle_bean = {
                 name = "Đậu Đen",
                 text = {
                     "{C:attention}+#1#{} lá giữ trong tay,",
-                    "giảm đi {C:red}#2#{} mỗi ván"
+                    "giảm đi {C:red}#2#{} mỗi vòng"
                 }
             },
             j_erosion = {
@@ -1107,7 +1107,7 @@
                 text = {
                     "Nhận {C:money}$#1#{} cho mỗi",
                     "lá {C:attention}#2#{} bị bỏ,",
-                    "bậc thay đổi mỗi ván"
+                    "bậc thay đổi mỗi vòng"
                 }
             },
             j_to_the_moon = {
@@ -1115,7 +1115,7 @@
                 text = {
                     "Nhận thêm {C:money}$#1#",
                     "{C:attention}tiền lợi túc{} cho mỗi {C:money}$5{} bạn có",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             j_hallucination = {
@@ -1146,9 +1146,9 @@
             j_bull = {
                 name = "Bò Đực",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh cho",
+                    "{C:chips}+#1#{} Xu cho",
                     "mỗi {C:money}$1{} bạn có",
-                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Phỉnh)"
+                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Xu)"
                 }
             },
             j_diet_cola = {
@@ -1162,8 +1162,8 @@
             j_trading = {
                 name = "Thẻ Trao Đổi",
                 text = {
-                    "Nếu {C:attention}lượt bỏ bài đầu tiên",
-                    "của ván chỉ có {C:attention}1{} lá, phá huỷ",
+                    "Nếu {C:attention}bỏ bài đầu tiên",
+                    "của vòng chỉ có {C:attention}1{} lá, phá huỷ",
                     "nó và nhận {C:money}$#1#"
                 }
             },
@@ -1171,7 +1171,7 @@
                 name = "Thẻ Ghi Nhớ",
                 text = {
                     "Joker này thêm {C:mult}+#1#{} Nhân",
-                    "mỗi lượt {C:attention}gieo lại{} trong shop",
+                    "mỗi lượt {C:attention}đổi lại{} trong shop",
                     "{C:inactive}(Hiện tại là {C:mult}+#2#{C:inactive} Nhân)"
                 }
             },
@@ -1180,7 +1180,7 @@
                 text = {
                     "{C:mult}+#1#{} Nhân",
                     "{C:mult}-#2#{} Nhân mỗi",
-                    "ván đã chơi"
+                    "vòng đã chơi"
                 }
             },
             j_ramen= {
@@ -1206,14 +1206,14 @@
                     "Mỗi lá đã chơi có",
                     "chất {V:1}#2#{} ghi thêm",
                     "{X:mult,C:white} X#1# {} Nhân khi ghi điểm,",
-                    "{s:0.8}chất thay đổi ở cuối ván"
+                    "{s:0.8}chất thay đổi ở cuối vòng"
                 }
             },
             j_walkie_talkie = {
                 name = "Bộ Đàm",
                 text = {
                     "Mỗi lá {C:attention}10{} hoặc {C:attention}4{} đã chơi",
-                    "ghi thêm {C:chips}+#1#{} Phỉnh và", 
+                    "ghi thêm {C:chips}+#1#{} Xu và", 
                     "{C:mult}+#2#{} Nhân khi ghi điểm"
                 },
             },
@@ -1228,10 +1228,10 @@
             j_castle = {
                 name = "Lâu Đài",
                 text = {
-                    "Joker này thêm {C:chips}+#1#{} Phỉnh",
+                    "Joker này thêm {C:chips}+#1#{} Xu",
                     "mỗi lá {V:1}#2#{} bị bỏ,",
-                    "chất thay đổi mỗi ván",
-                    "{C:inactive}(Hiện tại là {C:chips}+#3#{C:inactive} Phỉnh)"
+                    "chất thay đổi mỗi vòng",
+                    "{C:inactive}(Hiện tại là {C:chips}+#3#{C:inactive} Xu)"
                 },
             },
             j_smiley = {
@@ -1247,7 +1247,7 @@
                 text = {
                     "Joker Này thêm {X:mult,C:white}X#1#{} Nhân",
                     "cho mỗi lá bài {C:attention}đã bán{}, đặt",
-                    "lại khi {C:attention}Mù Trùm{} bị đánh bại",
+                    "lại khi {C:attention}Cược Trùm{} bị đánh bại",
                     "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 }
             },
@@ -1256,7 +1256,7 @@
             j_stuntman = {
                 name = "Người Đóng Thế",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh, {C:attention}-#2#{} lá",
+                    "{C:chips}+#1#{} Xu, {C:attention}-#2#{} lá",
                     "giữ trong tay"
                 },
                 unlock = {
@@ -1268,7 +1268,7 @@
             j_invisible = {
                 name = "Joker Tàng Hình",
                 text = {
-                    "Sau {C:attention}#1#{} ván,",
+                    "Sau {C:attention}#1#{} vòng,",
                     "bán lá này để {C:attention}Nhân bản",
                     "một Joker ngẫu nhiên",
                     "{C:inactive}(Hiện tại là {C:attention}#2#{C:inactive}/#1#)"
@@ -1293,7 +1293,7 @@
             j_satellite = {
                 name = "Vệ Tinh",
                 text = {
-                    "Nhận {C:money}$#1#{} ở cuối mỗi ván",
+                    "Nhận {C:money}$#1#{} ở cuối mỗi vòng",
                     "cho mỗi lá {C:planet}Hành Tinh{} khác loại",
                     "đã dùng trong trận này",
                     "{C:inactive}(Hiện tại là {C:money}$#2#{C:inactive})"
@@ -1313,7 +1313,7 @@
                 unlock = {
                     "Chơi toàn bộ lá {E:1,C:attention}Cơ",
                     "trong bộ bài của bạn",
-                    "trong một ván duy nhất"
+                    "trong một vòng duy nhất"
                 }
             },
             j_drivers_license = {
@@ -1333,7 +1333,7 @@
                 name = "Thầy Bói",
                 text = {
                     "Tạo ra một lá {C:tarot}Tarot",
-                    "khi {C:attention}Blind{} được chọn",
+                    "khi {C:attention}Mức Cược{} được chọn",
                     "{C:inactive}(Phải có ô trống)"
                 },
                 unlock = {
@@ -1356,9 +1356,9 @@
             j_burnt = {
                 name = "Joker Cháy Sém",
                 text = {
-                    "Nâng level cho",
+                    "Nâng cấp",
                     "tay poker {C:attention}bị bỏ",
-                    "đầu tiên của mỗi ván",
+                    "đầu tiên của mỗi vòng",
                 },
                 unlock = {
                     "Bán tổng cộng",
@@ -1416,7 +1416,7 @@
                 name = "Chicot",
                 text = {
                     "Vô hiệu hoá khả năng",
-                    "của mọi {C:attention}Mù Trùm"
+                    "của mọi {C:attention}Cược Trùm"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1477,7 +1477,7 @@
             v_reroll_surplus = {
                 name = "Gieo Thặng Dư",
                 text = {
-                    "Mỗi lượt gieo lại tiết kiệm",
+                    "Mỗi lượt đổi lại tiết kiệm",
                     "được {C:money}$#1#"
                 }
             },
@@ -1501,22 +1501,22 @@
                 text = {
                     "Vĩnh viễn thêm",
                     "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+                    "mỗi vòng"
                 }
             },
             v_wasteful = {
                 name = "Phung Phí",
                 text = {
                     "Vĩnh viễn thêm",
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:red}+#1#{} bỏ bài",
+                    "mỗi vòng"
                 }
             },
             v_seed_money = {
-                name = "Tiền Hạt Giống",
+                name = "Tiền Hạt Seed",
                 text = {
                     "Tăng giới hạn lợi túc",
-                    "thu được mỗi ván",
+                    "thu được mỗi vòng",
                     "lên {C:money}$#1#"
                 }
             },
@@ -1536,16 +1536,16 @@
             v_hieroglyph = {
                 name = "Chữ Tượng Hình",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
+                    "{C:attention}-#1#{} Bàn,",
                     "{C:blue}-#1#{} tay bài",
-                    "mỗi ván"
+                    "mỗi vòng"
                 }
             },
             v_directors_cut = {
                 name = "Nguyên Bản Đạo Diễn",
                 text = {
-                    "Gieo lại Mù Trùm",
-                    "{C:attention}1{} lần mỗi Ante,",
+                    "Đổi lại Cược Trùm",
+                    "{C:attention}1{} lần mỗi Bàn,",
                     "{C:money}$#1#{} mỗi lượt gieo"
                 }
             },
@@ -1624,11 +1624,11 @@
             v_reroll_glut = {
                 name = "Gieo Thừa Thãi",
                 text = {
-                    "Mỗi lượt gieo lại tiết kiệm",
+                    "Mỗi lượt đổi lại tiết kiệm",
                     "được {C:money}$#1#"
                 },
                 unlock = {
-                    "Gieo lại shop",
+                    "Đổi lại shop",
                     "tổng cộng {C:attention}#1#{} lần",
                     "{C:inactive}(#2#)"
                 }
@@ -1667,7 +1667,7 @@
                 text = {
                     "Vĩnh viễn thêm",
                     "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+                    "mỗi vòng"
                 },
                 unlock = {
                     "Chơi tổng cộng",
@@ -1679,8 +1679,8 @@
                 name = "Tái Chế",
                 text = {
                     "Vĩnh viễn thêm",
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:red}+#1#{} bỏ bài",
+                    "mỗi vòng"
                 },
                 unlock = {
                     "Bỏ đi tổng cộng",
@@ -1692,13 +1692,13 @@
                 name = "Cây Hái Ra Tiền",
                 text = {
                     "Tăng giới hạn lợi túc",
-                    "thu được mỗi ván",
+                    "thu được mỗi vòng",
                     "lên {C:money}$#1#"
                 },
                 unlock = {
                     "Đạt tiền lợi túc tối đa",
-                    "mỗi ván trong",
-                    "{C:attention}#1#{} ván liên tiếp",
+                    "mỗi vòng trong",
+                    "{C:attention}#1#{} vòng liên tiếp",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1730,25 +1730,25 @@
             v_petroglyph = {
                 name = "Tranh Khắc Đá",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:attention}-#1#{} Bàn,",
+                    "{C:red}-#1#{} bỏ bài",
+                    "mỗi vòng"
                 },
                 unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Đạt Bàn",
+                    "thứ {E:1,C:attention}#1#"
                 }
             },
             v_retcon = {
                 name = "Trinh Sát",
                 text = {
-                    "Gieo lại Mù Trùm",
+                    "Đổi lại Cược Trùm",
                     "{C:attention}không giới hạn{} số lần,",
                     "{C:money}$#1#{} mỗi lượt gieo"
                 },
                 unlock = {
                     "Khám phá",
-                    "{C:attention}#1#{} loại Blind"
+                    "{C:attention}#1#{} loại Mức Cược"
                 }
             },
             v_palette = {
@@ -1947,109 +1947,109 @@
             c_mercury = {
                 name = "Thuỷ Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_venus = {
                 name = "Kim Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_earth = {
                 name = "Trái Đất",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_mars = {
                 name = "Hoả Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_jupiter = {
                 name = "Mộc Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_saturn = {
                 name = "Thổ Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_uranus = {
                 name = "Thiên Vương Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_neptune = {
                 name = "Hải Vương Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_pluto = {
                 name = "Diêm Vương Tinh",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_ceres = {
                 name = "Ceres",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_planet_x = {
                 name = "Hành Tinh X",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
             c_eris = {
                 name = "Eris",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng cấp",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:chips}+#4#{} xu"
                 }
             },
         },
@@ -2199,7 +2199,7 @@
                 text = {
                     "Nâng mọi",
                     "{C:legendary,E:1}tay poker",
-                    "thêm {C:attention}1{} level"
+                    "thêm {C:attention}1{} cấp"
                 }
             }
         },
@@ -2213,7 +2213,7 @@
             e_foil = {
                 name = "Ánh Kim",
                 text = {
-                    "{C:chips}+#1#{} chip"
+                    "{C:chips}+#1#{} xu"
                 }
             },
             e_holo = {
@@ -2286,7 +2286,7 @@
             m_stone = {
                 name = "Lá Đá",
                 text = {
-                    "{C:chips}+#1#{} Phỉnh",
+                    "{C:chips}+#1#{} Xu",
                     "không có bậc hay chất"
                 }
             },
@@ -2295,7 +2295,7 @@
                 text = {
                     "{C:money}$#1#{} nếu lá này",
                     "được giữ trong tay",
-                    "ở cuối ván"
+                    "ở cuối vòng"
                 }
             },
             m_lucky = {
@@ -2310,64 +2310,64 @@
         },
         Stake = {
             stake_white = {
-                name = "Cược Trắng",
+                name = "Stake Trắng",
                 text = {
                     "Độ khó tiêu chuẩn"
                 }
             },
             stake_red = {
-                name = "Cược Đỏ",
+                name = "Stake Đỏ",
                 text = {
-                    "{C:attention}Small Blind",
+                    "{C:attention}Cược Nhỏ",
                     "không có tiền thưởng",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_green = {
-                name = "Cược Lục",
+                name = "Stake Lục",
                 text = {
                     "Điểm yêu cầu tăng",
-                    "nhanh hơn sau mỗi {C:attention}Ante",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "nhanh hơn sau mỗi {C:attention}Bàn",
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_blue = {
-                name = "Cược Lam",
+                name = "Stake Lam",
                 text = {
-                    "{C:red}-1{} Lượt bỏ bài",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "{C:red}-1{} Bỏ bài",
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_black = {
-                name = "Cược Đen",
+                name = "Stake Đen",
                 text = {
                     "Shop có thể có Joker {C:attention}Vĩnh Hằng",
                     "{C:inactive,s:0.8}(Không thể bán hoặc bị phá huỷ)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_purple = {
-                name = "Cược Tím",
+                name = "Stake Tím",
                 text = {
                     "Điểm yêu cầu tăng",
-                    "nhanh hơn sau mỗi {C:attention}Ante",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "nhanh hơn sau mỗi {C:attention}Bàn",
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_orange = {
-                name = "Cược Cam",
+                name = "Stake Cam",
                 text = {
                     "Shop có thể có Joker {C:attention}Ngắn Hạn",
-                    "{C:inactive,s:0.8}(Vô hiệu hoá sau 5 Ván)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "{C:inactive,s:0.8}(Vô hiệu hoá sau 5 Vòng)",
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             },
             stake_gold = {
-                name = "Cược Vàng",
+                name = "Stake Vàng",
                 text = {
                     "Shop có thể có Joker {C:attention}Cho Thuê",
-                    "{C:inactive,s:0.8}(Tốn {C:money,s:0.8}$3{C:inactive,s:0.8} mỗi ván)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+                    "{C:inactive,s:0.8}(Tốn {C:money,s:0.8}$3{C:inactive,s:0.8} mỗi vòng)",
+                    "{s:0.8}Áp dụng các Stake trước đó"
                 }
             }
         },
@@ -2389,8 +2389,8 @@
             tag_negative = {
                 name = "Nhãn Âm Tính",
                 text = {
-                    "Joker bản chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
+                    "Joker tiêu chuẩn tiếp theo",
+                    "trong shop sẽ miễn phí",
                     "và trở thành {C:dark_edition}Âm Tính"
                 }
             },
@@ -2398,7 +2398,7 @@
                 name = "Nhãn Ánh Kim",
                 text = {
                     "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
+                    "trong shop sẽ miễn phí",
                     "và trở thành {C:dark_edition}Ánh Kim"
                 }
             },
@@ -2406,7 +2406,7 @@
                 name = "Nhãn Lấp Lánh",
                 text = {
                     "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
+                    "trong shop sẽ miễn phí",
                     "và trở thành {C:dark_edition}Lấp Lánh"
                 }
             },
@@ -2414,7 +2414,7 @@
                 name = "Nhãn Đa Sắc",
                 text = {
                     "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
+                    "trong shop sẽ miễn phí",
                     "và trở thành {C:dark_edition}Đa Sắc"
                 }
             },
@@ -2422,7 +2422,7 @@
                 name = "Nhãn Đầu Tư",
                 text = {
                     "Sau khi đánh bại",
-                    "Mù Trùm,",
+                    "Cược Trùm,",
                     "nhận {C:money}$#1#"
                 }
             },
@@ -2436,7 +2436,7 @@
             tag_boss = {
                 name = "Nhãn Trùm",
                 text = {
-                    "Gieo lại {C:attention}Mù Trùm",
+                    "Đổi lại {C:attention}Cược Trùm",
                     "của hiện tại"
                 }
             },
@@ -2479,7 +2479,7 @@
             tag_garbage = {
                 name = "Nhãn Phế Thải",
                 text = {
-                    "Nhận {C:money}$#1#{} mỗi {C:red}lượt bỏ bài",
+                    "Nhận {C:money}$#1#{} mỗi {C:red}bỏ bài",
                     "chưa sử dụng trận này",
                     "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})",
                 }
@@ -2504,13 +2504,13 @@
                 name = "Nhãn Tung Hứng",
                 text = {
                     "{C:attention}+#1#{} lá giữ trong tay",
-                    "cho ván tiếp theo"
+                    "cho vòng tiếp theo"
                 }
             },
             tag_d_six = {
                 name = "Nhãn Xúc Sắc số 6",
                 text = {
-                    "Lượt gieo lại trong shop",
+                    "Lượt đổi lại trong shop",
                     "tiếp theo bắt đầu từ {C:money}$0"
                 }
             },
@@ -2525,7 +2525,7 @@
             tag_skip = {
                 name = "Nhãn Tăng Tốc",
                 text = {
-                    "Nhận {C:money}$#1#{} mỗi Blind",
+                    "Nhận {C:money}$#1#{} mỗi Mức Cược",
                     "đã bỏ qua trong trận này",
                     "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})"
                 }
@@ -2534,7 +2534,7 @@
                 name = "Nhãn Quỹ Đạo",
                 text = {
                     "Nâng {C:attention}#1#",
-                    "thêm {C:attention}#2# level"
+                    "thêm {C:attention}#2# cấp"
                 }
             },
             tag_economy = {
@@ -2554,11 +2554,11 @@
         },
         Blind = {
             bl_small = {
-                name = "Mù Nhỏ",
+                name = "Cược Nhỏ",
                 text = {}
             },
             bl_big = {
-                name = "Mù Lớn",
+                name = "Cược Lớn",
                 text = {}
             },
             bl_hook = {
@@ -2571,7 +2571,7 @@
             bl_wall = {
                 name = "The Wall",
                 text = {
-                    "Blind rất lớn"
+                    "Mức Cược rất lớn"
                 }
             },
             bl_wheel = {
@@ -2584,7 +2584,7 @@
             bl_arm = {
                 name = "The Arm",
                 text = {
-                    "Hạ level của",
+                    "Hạ cấp của",
                     "tay poker đã chơi"
                 }
             },
@@ -2604,22 +2604,22 @@
             bl_water = {
                 name = "The Water",
                 text = {
-                    "Bắt đầu chơi",
-                    "với 0 lượt bỏ bài"
+                    "Bắt đầu vòng chơi",
+                    "với 0 bỏ bài"
                 }
             },
             bl_eye = {
                 name = "The Eye",
                 text = {
                     "Không chơi lại tay poker",
-                    "đã chơi trong ván này"
+                    "đã chơi trong vòng này"
                 }
             },
             bl_mouth = {
                 name = "The Mouth",
                 text = {
                     "Chỉ chơi 1 loại",
-                    "tay poker trong ván này"
+                    "tay poker trong vòng này"
                 }
             },
             bl_plant = {
@@ -2645,7 +2645,7 @@
             bl_tooth = {
                 name = "The Tooth",
                 text = {
-                    "Mất $1 mỗi lá",
+                    "Mất $1 với mỗi lá",
                     "đã chơi"
                 }
             },
@@ -2659,7 +2659,7 @@
             bl_final_vessel = {
                 name = "Violet Vessel",
                 text = {
-                    "Mốc mù siêu lớn"
+                    "Mức Cược siêu lớn"
                 }
             },
             bl_ox = {
@@ -2714,13 +2714,13 @@
                 name = "The Pillar",
                 text = {
                     "Lá bài đã chơi trong",
-                    "Ante này bị vô hiệu hoá"
+                    "Bàn này bị vô hiệu hoá"
                 }
             },
             bl_flint = {
                 name = "The Flint",
                 text = {
-                    "Phỉnh và hệ số Nhân chuẩn",
+                    "Xu và hệ số Nhân chuẩn",
                     "bị cắt đi một nửa"
                 }
             },
@@ -2757,15 +2757,15 @@
             b_red = {
                 name = "Bộ Bài Đỏ",
                 text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:red}+#1#{} bỏ bài",
+                    "mỗi vòng"
                 }
             },
             b_blue = {
                 name = "Bộ Bài Lam",
                 text = {
                     "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+                    "mỗi vòng"
                 }
             },
             b_yellow = {
@@ -2778,9 +2778,9 @@
             b_green = {
                 name = "Bộ Bài Lục",
                 text = {
-                    "Ở cuối mỗi Ván:",
-                    "{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
-                    "{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
+                    "Ở cuối mỗi Vòng:",
+                    "{C:money}$#1#{s:0.85} mỗi {C:blue}Tay Bài{} còn lại",
+                    "{C:money}$#2#{s:0.85} mỗi {C:red}Bỏ bài{} còn lại",
                     "Không nhận {C:attention}Lợi Túc"
                 }
             },
@@ -2789,7 +2789,7 @@
                 text = {
                     "{C:attention}+#1#{} ô Joker",
                     "{C:blue}-#2#{} tay bài",
-                    "mỗi ván"
+                    "mỗi vòng"
                 }
             },
             b_magic = {
@@ -2854,17 +2854,17 @@
                 name = "Bộ Bài Chạm Nổi",
                 text = {
                     "Sau khi đánh bại mỗi",
-                    "{C:attention}Mù Trùm{}, nhận một",
+                    "{C:attention}Cược Trùm{}, nhận một",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
             b_plasma = {
                 name = "Bộ Bài Plasma",
                 text = {
-                    "Cân bằng {C:blue}Phỉnh{} và",
+                    "Cân bằng {C:blue}Xu{} và",
                     "hệ số {C:red}Nhân{} khi tính điểm",
                     "cho tay đã chơi",
-                    "{C:red}X#1#{} điểm Blind sàn"
+                    "{C:red}X#1#{} điểm Mức Cược sàn"
                 }
             },
             b_erratic = {
@@ -2902,7 +2902,7 @@
                 name = "Con Dấu Lam",
                 text = {
                     "Tạo ra một lá {C:planet}Hành Tinh{} cho",
-                    "{C:attention}tay poker{} cuối cùng của ván",
+                    "{C:attention}tay poker{} cuối cùng của vòng",
                     "nếu được {C:attention}giữ{} trong tay",
                     "{C:inactive}(Phải có ô trống)"
                 }
@@ -2926,15 +2926,15 @@
                 name = "Ngắn Hạn",
                 text = {
                     "Vô hiệu hoá sau",
-                    "{C:attention}#1#{} ván",
-                    "{C:inactive}(còn {C:attention}#2#{C:inactive} ván)"
+                    "{C:attention}#1#{} vòng",
+                    "{C:inactive}(còn {C:attention}#2#{C:inactive} vòng)"
                 }
             },
             rental = {
                 name = "Cho Thuê",
                 text = {
                     "Mất {C:money}$#1#{} ở",
-                    "cuối ván"
+                    "cuối vòng"
                 }
             },
             white_sticker = {
@@ -3008,12 +3008,12 @@
             },
             card_chips = {
                 text = {
-                    "{C:chips}+#1#{} chip"
+                    "{C:chips}+#1#{} xu"
                 }
             },
             card_extra_chips = {
                 text = {
-                    "{C:chips}+#1#{} chip thêm"
+                    "{C:chips}+#1#{} xu thêm"
                 }
             },
             remove_negative = {
@@ -3434,8 +3434,8 @@
         },
         high_scores = {
             hand = "Tay Tốt Nhất",
-            furthest_round = "Ván Cao Nhất",
-            furthest_ante = "Ante Cao Nhất",
+            furthest_round = "Vòng Cao Nhất",
+            furthest_ante = "Bàn Cao Nhất",
             most_money = "Mức Tiền Cao Nhất",
             boss_streak = "Boss liên tiếp nhiều nhất",
             collection = "Bộ Sưu Tập",
@@ -3444,8 +3444,8 @@
             poker_hand = "Tay Chơi Nhiều Nhất"
         },
         achievement_names = {
-            ante_up = "Ante Thăng Tiến!",
-            ante_upper = "Ante Thăng Tiến Tiếp!",
+            ante_up = "Bàn Thăng Tiến!",
+            ante_upper = "Bàn Thăng Tiến Tiếp!",
             heads_up = "Tiên Đoán",
             low_stakes = "Cược Thấp",
             mid_stakes = "Cược Trung Bình",
@@ -3480,27 +3480,27 @@
             ------------------------------------------------------------------------------------------------------------------------
         },
         achievement_descriptions = {
-            ante_up = "Đạt Ante 4",
-            ante_upper = "Đạt Ante 8",
+            ante_up = "Đạt Bàn 4",
+            ante_upper = "Đạt Bàn 8",
             heads_up = "Thắng một Trận",
-            low_stakes = "Thắng một trận ở mức Cược Đỏ trở lên",
-            mid_stakes = "Thắng một trận ở mức Cược Đen trở lên",
-            high_stakes = "Thắng một trận ở mức Cược Vàng trở lên",
+            low_stakes = "Thắng một trận ở mức Stake Đỏ trở lên",
+            mid_stakes = "Thắng một trận ở mức Stake Đen trở lên",
+            high_stakes = "Thắng một trận ở mức Stake Vàng trở lên",
             card_player = "Chơi ít nhất 2500 Lá bài",
             card_discarder = "Bỏ ít nhất 2500 Lá bài",
             nest_egg = "Trữ $400 hoặc hơn trong một trận duy nhất",
             flushed = "Chơi Thùng bằng 5 Lá Tuỳ Chất",
             speedrunner = "Thắng một trận bằng 12 màn hoặc ít hơn",
-            roi = "Mua 5 phiếu ở Ante 4",
+            roi = "Mua 5 phiếu ở Bàn 4",
             shattered = "Đập vỡ 2 Lá Kính trong một tay bài",
             royale = "Chơi Sảnh Chúa",
-            retrograde = "Nâng một tay poker đến level 10",
-            _10k = "Đạt 10.000 Phỉnh bằng một tay bài duy nhất",
-            _1000k = "Đạt 1.000.000 Phỉnh bằng một tạy chơi duy nhất",
-            _100000k = "Đạt 100.000.000 Phỉnh bằng một tay bài duy nhất",
+            retrograde = "Nâng một tay poker đến cấp 10",
+            _10k = "Đạt 10.000 Xu bằng một tay bài duy nhất",
+            _1000k = "Đạt 1.000.000 Xu bằng một tạy chơi duy nhất",
+            _100000k = "Đạt 100.000.000 Xu bằng một tay bài duy nhất",
             tiny_hands = "Làm mỏng bộ bài xuống 20 lá hoặc ít hơn",
             big_hands = "Sở hữu hơn 80 lá trong bộ bài",
-            you_get_what_you_get = "Thắng một trận mà không gieo lại shop lần nào",
+            you_get_what_you_get = "Thắng một trận mà không đổi lại shop lần nào",
             rule_bender = "Hoàn thành bất kì trận thử thách nào",
             rule_breaker = "Hoàn thành mọi trận thử thách",
             legendary = "Khám phá một Joker Huyền Thoại",
@@ -3632,7 +3632,7 @@
             b_redeem = "ĐỔI",
             b_open = "MỞ",
             b_and_use = "& DÙNG",
-            b_next_round_1 = "Ván",
+            b_next_round_1 = "Vòng",
             b_next_round_2 = "Kế Tiếp",
             b_play_hand = "Chơi Bài",
             b_discard = "Bỏ Bài",
@@ -3640,15 +3640,15 @@
             b_run_info_1 = "T.tin",
             b_run_info_2 = "Trận Này",
             b_options = "Tuỳ Chọn",
-            b_reroll_boss = "Gieo lại Boss",
-            b_skip_blind = "Bỏ Qua Blind",
+            b_reroll_boss = "Đổi lại Boss",
+            b_skip_blind = "Bỏ Qua Mức Cược",
             b_skip_reward = "Thưởng Bỏ Qua",
             b_skip = "Bỏ Qua",
             b_start_new_run = "Trận Mới",
             b_main_menu = "Menu Chính",
             b_collection = "Bộ Sưu Tập",
-            b_seed = "Giống",
-            b_copy_seed = "Sao Chép Giống",
+            b_seed = "Seed",
+            b_copy_seed = "Sao Chép Seed",
             b_copy = "Sao Chép",
             b_credits = "Danh Đề",
             b_stats = "Thống Kê",
@@ -3682,15 +3682,15 @@
             b_stat_spectrals = "Lá Siêu Linh",
             b_stat_vouchers = "Phiếu",
             b_next = "Tiếp Theo",
-            b_endless = "Nâng Tầm Cuộc Chơi!",
+            b_endless = "Còn Thở Còn Gỡ!",
             b_wishlist = "Thêm vào Danh Sách Ước trên Steam",
             b_playbalatro = "Đến trang playbalatro.com",
             b_remaining = "Bộ Còn Lại",
             b_full_deck = "Bộ Đầy Đủ",
             b_poker_hands = "Tay Poker",
-            b_blinds = "Blind",
+            b_blinds = "Mức Cược",
             b_vouchers = "Phiếu",
-            b_stake = "Cược",
+            b_stake = "Stake",
             b_jokers = "Joker",
             b_tarot_cards = "Lá Tarot",
             b_planet_cards = "Lá Hành Tinh",
@@ -3727,14 +3727,14 @@
             k_compatible = "tương thích",
             k_incompatible = "không tương thích",
             k_active = "có hiệu lực",
-            k_round = "Ván",
-            k_ante = "Ante",
-            k_seed = "Giống",
+            k_round = "Vòng",
+            k_ante = "Bàn",
+            k_seed = "Seed",
             k_reroll = "Đổi lại",
             k_mult = "Nhân",
             k_rank = "Bậc",
             k_suit = "Chất",
-            k_stake = "Cược",
+            k_stake = "Stake",
             k_common = "Thường",
             k_uncommon = "Ít Phổ Biến",
             k_rare = "Hiếm",
@@ -3753,7 +3753,7 @@
             k_booster = "Gói Bài",
             k_edition = "Phiên Bản",
             k_hud_hands = "Tay Bài",
-            k_hud_discards = "Lượt Bỏ",
+            k_hud_discards = "Bỏ Bài",
             k_lower_score = "Điểm",
             k_arcana_pack = "Gói Thần Bí",
             k_celestial_pack = "Gói Thiên Thể",
@@ -3762,14 +3762,14 @@
             k_buffoon_pack = "Gói Hề",
             k_enter_text = "Nhập Văn Bản",
             k_defeated_by = "Bị Đánh Bại Bởi",
-            k_level_prefix = "lv.",
+            k_level_prefix = "cấp ",
             k_also_applied = "Cũng áp dụng",
             k_base_cards = "Lá Chuẩn",
             k_effective = "Hiệu Quả",
             k_aces = "Át",
             k_face_cards = "Lá Mặt",
             k_numbered_cards = "Lá Số",
-            k_cap_consumables = "LÁ TIÊU THỤ",
+            k_cap_consumables = "LÁ BỔ TRỢ",
             k_page = "Trang",
             k_ante_cap = "ANTE",
             k_base_cap = "ĐIỂM SÀN",
@@ -3789,8 +3789,8 @@
             k_progress = "Tiến Trình",
             k_challenges = "Thử Thách",
             k_joker_stickers = "Nhãn Joker",
-            k_deck_stake_wins = "Cược Đã Thắng",
-            k_stake_level = "Cấp Độ Cược",
+            k_deck_stake_wins = "Stake Đã Thắng",
+            k_stake_level = "Cấp Độ Stake",
             k_none = "Không Có",
             k_game_modifiers = "Phần Điều Chỉnh",
             k_custom_rules = "Luật Chơi",
@@ -3799,14 +3799,14 @@
             k_other = "Khác",
             k_money = "Tiền",
             k_best_hand = "Tay Tốt Nhất",
-            k_seeded_run = "Trận Chơi Bằng Giống",
-            k_enter_seed = "Nhập Giống",
+            k_seeded_run = "Trận Chơi Bằng Seed",
+            k_enter_seed = "Nhập Seed",
             k_enter_name = "Nhập Tên",
-            k_lvl = "lv.",
+            k_lvl = "cấp",
             k_skipped_cap = "ĐÃ BỎ QUA",
             k_no_reward = "Không Thưởng",
             k_reward = "Thưởng",
-            k_nope_ex = "Thục Lắc!",
+            k_nope_ex = ":P",
             k_not_allowed_ex = "Không Hợp Lệ!",
             k_or = "hoặc",
             k_poker_hand = "tay poker",
@@ -3822,19 +3822,19 @@
             k_achievements_disabled = "Thành Tựu Đã Vô Hiệu Hoá",
             k_trophies_disabled = "Cúp Đã Vô Hiệu Hoá",
             ph_display_stickers = "Hiển Thị Nhãn Cược trong Trận",
-            ph_improve_run = "Cải thiện trận của bạn!",
+            ph_improve_run = "Nâng tầm cuộc chơi!",
             ph_no_boss_active = "không có boss hiệu lực",
             ph_sneak_peek = "Xem Trước",
             ph_deck_preview_stones = "Lá Đá",
-            ph_deck_preview_effective = "Tổng hiệu suất từ Joker, Blind, and Lá Cường Hoá",
+            ph_deck_preview_effective = "Tổng hiệu suất từ Joker, Mức Cược, and Lá Cường Hoá",
             ph_blind_score_at_least = "Đạt ít nhất",
             ph_blind_reward = "Thưởng: ",
             ph_4_7_of_clubs = "bốn lá 7 Chuồn",
-            ph_up_ante_1 = "Thăng Ante",
-            ph_up_ante_2 = "Nâng toàn bộ Blind",
-            ph_up_ante_3 = "Làm mới Blind",
+            ph_up_ante_1 = "Thăng Bàn",
+            ph_up_ante_2 = "Nâng toàn bộ Mức Cược",
+            ph_up_ante_3 = "Làm mới Mức Cược",
             ph_select_challenge = "Chọn một Thử Thách",
-            ph_stat_joker = "Tổng sồ ván đã chơi với lá này",
+            ph_stat_joker = "Tổng sồ vòng đã chơi với lá này",
             ph_stat_consumable = "Số lần sử dụng lá này",
             ph_stat_voucher = "Số lần đổi ra phiếu này",
             ph_demo_thanks_1 = "Cảm ơn vì đã chơi",
@@ -3844,26 +3844,26 @@
             ph_you_win_demo = "BẠN THẮNG BẢN DEMO!",
             ph_vouchers_redeemed = "Phiếu đã quy đổi trong trận này",
             ph_no_vouchers = "Không có phiếu nào đã quy đổi trong trận này",
-            ph_defeat_this_blind_1 = "Đánh bại Blind này",
+            ph_defeat_this_blind_1 = "Đánh bại Mức Cược này",
             ph_defeat_this_blind_2 = "Để khám phá nó",
             ph_click_confirm = "Click lần nữa để xác nhận",
-            ph_choose_blind_1 = "Chọn Blind",
+            ph_choose_blind_1 = "Chọn Mức Cược",
             ph_choose_blind_2 = "tiếp theo",
             ph_mr_bones = "Được cứu bởi Ông Bones",
             ph_score_at_least = "Ghi ít nhất",
             ph_all_poker_hand = "Tất cả Tay Poker",
-            ph_1_level = "+1 Level",
+            ph_1_level = "+1 Cấp",
             ph_boss_disabled = "Boss Đã Vô Hiệu Hoá!",
             ph_most_played = "(tay chơi nhiều nhất)",
-            ph_defeat_the_boss = "Đánh bại Mù Trùm",
-            ph_score_furthest_ante = "Ante",
+            ph_defeat_the_boss = "Đánh bại Cược Trùm",
+            ph_score_furthest_ante = "Bàn",
             ph_score_furthest_round = "Màn",
             ph_score_hand = "Tay Tốt Nhất",
             ph_score_poker_hand = "Tay Chơi Nhiều Nhất",
             ph_score_new_collection = "Khám Phá Mới",
             ph_score_cards_played = "Số Lá Bài Đã Chơi",
             ph_score_cards_discarded = "Số Lá Bài Đã Bỏ",
-            ph_score_times_rerolled = "Số lần Gieo lại",
+            ph_score_times_rerolled = "Số lần Đổi lại",
             ph_score_cards_purchased = "Số Lá Bài Đã Mua",
             ph_unscored_hand = "Tay này sẽ không ghi điểm",
             ph_alert_debuff_confirm = "Nhấn 'Chơi' lại để xác nhận",
@@ -3918,7 +3918,7 @@
             },
             ml_paste_seed = {
                 "Dán",
-                "Giống"
+                "Seed"
             },
             ml_disabled_seed = {
                 "Toàn bộ Mở Khoá và Khám",
@@ -3948,7 +3948,7 @@
             k_plus_spectral = "+1 Lá Siêu Linh",
             k_plus_joker = "+1 Joker",
             k_active_ex = "Có Hiệu Lực!",
-            k_level_up_ex = "Lên Level!",
+            k_level_up_ex = "Lên Cấp!",
             k_upgrade_ex = "Nâng Cấp!",
             k_again_ex = "Lần Nữa!",
             k_val_up = "Lên Giá!",
@@ -3993,8 +3993,8 @@
             b_browse = 'Duyệt',
 			b_search_prompt = 'Tìm mod',
 			b_search_button = 'Tìm kiếm',
-            b_seeded_unlocks = 'Giống Mở Khoá',
-            b_seeded_unlocks_info = 'Cho phép mở khoá trong trận chơi bằng giống',
+            b_seeded_unlocks = 'Seed Mở Khoá',
+            b_seeded_unlocks_info = 'Cho phép mở khoá trong trận chơi bằng seed',
             ml_achievement_settings = {
                 'Tắt',
                 'Bật',
@@ -4030,31 +4030,31 @@
                 "Giảm số lượng lá bài",
                 "trên màn hình"    
             },
-            ["gald_stake_colour"] = "Làm Mờ Cược",
+            ["gald_stake_colour"] = "Làm Mờ Stake",
             ["gald_stake_colour_options"] = {
                 "Làm mờ chưa thắng",    
                 "Làm mờ đã thắng",
             },
             ["gald_stake_colour_desc"] = {
-                "Chọn loại cược nào bị làm mờ",
-                "trong màn hình chọn cược"
+                "Chọn loại stake nào bị làm mờ",
+                "trong màn hình chọn stake"
             },
             ["gald_stake_select"] = "Chọn Cược",
             ["gald_stake_select_options"] = {
                 "Lần trước đó",    
                 "Mở khoá tiếp theo",
-                "Cược Trắng"
+                "Stake Trắng"
             },
             ["gald_stake_select_desc"] = {
-                "Chọn loại cược nào được bốc",
-                "mặc định trong màn hình chọn cược"
+                "Chọn loại stake nào được bốc",
+                "mặc định trong màn hình chọn stake"
             },
             ["gald_unlock"] = "Mở khoá toàn bộ cược",
             ["gald_unlock_desc"] = {
                 "Cho phép chọn và chơi bất kì loại cược nào"    
             },
             ["gald_select_deck"] = "Chọn Bộ Bài",
-            ["gald_select_stake"] = "Chọn Cược",
+            ["gald_select_stake"] = "Chọn Stake",
             ["gald_play"] = "Chơi",
             ["gald_selected"] = "ĐÃ CHỌN",
             ["gald_locked"] = "Bị Khoá",
@@ -4063,7 +4063,7 @@
             ["gald_new_page_error"] = "Lỗi thêm trang",
             ["gald_quick_start"] = "Trận Trước Đó",
             ["gald_random_deck"] = "Bộ Bài Ngẫu Nhiên",
-            ["gald_random_stake"] = "Cược Ngẫu Nhiên",
+            ["gald_random_stake"] = "Stake Ngẫu Nhiên",
             ------------------------------- Galdur loc is deprecated - made out of personal interest -------------------------------
             ----------------------------------- Phần dùng cho Nopeus - cần phiên bản đã Việt hoá -----------------------------------
             nopeus_ff = "Siêu Tốc",
@@ -4104,10 +4104,10 @@
             completed = "#1#/#2# Đã Hoàn Thành",
             interest = "#1# tiền lợi túc mỗi $#2# (tối đa #3#)",
             remaining_hand_money = "Tay Bài Còn Lại ($#1# mỗi tay)",
-            remaining_discard_money = "Lượt Bỏ Bài Còn lại ($#1# mỗi lượt)",
+            remaining_discard_money = "Bỏ Bài Còn lại ($#1# mỗi lượt)",
             ml_foil_desc = {
                 "Ánh Kim",
-                "+#1# Phỉnh"
+                "+#1# Xu"
             },
             ml_holo_desc = {
                 "Lấp Lánh",
@@ -4137,13 +4137,13 @@
                 "Bắt đầu với {C:money}$#1#"
             },
             ch_m_hands = {
-                "{C:blue}#1#{} tay bài mỗi ván"
+                "{C:blue}#1#{} tay bài mỗi vòng"
             },
             ch_m_discards = {
-                "{C:red}#1#{} lượt bỏ bài mỗi ván"
+                "{C:red}#1#{} bỏ bài mỗi vòng"
             },
             ch_m_reroll_cost = {
-                "{C:money}$#1#{} giá gốc để gieo lại"
+                "{C:money}$#1#{} giá gốc để đổi lại"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} ô Joker"
@@ -4158,25 +4158,25 @@
                 "{C:inactive}Không Có"
             },
             ch_c_no_reward = {
-                "Tất cả {C:attention}Blind{} không có tiền thưởng"
+                "Tất cả {C:attention}Mức Cược{} không có tiền thưởng"
             },
             ch_c_no_reward_specific = {
-                "{C:attention}#1# Blind{} không có tiền thưởng"
+                "{C:attention}#1# Mức Cược{} không có tiền thưởng"
             },
             ch_c_no_extra_hand_money = {
-                "{C:blue}Tay bài{} dư không thưởng thêm tiền"
+                "{C:blue}Tay Bài{} dư không thưởng thêm tiền"
             },
             ch_c_no_interest = {
-                "Không nhận {C:attention}Lợi Túc{} ở cuối ván"
+                "Không nhận {C:attention}Lợi Túc{} ở cuối vòng"
             },
             ch_c_daily = {
                 "{E:1,s:1.2,C:red}Thử Thách Hằng Ngày!"
             },
             ch_c_set_seed = {
-                "1 lần chơi với Giống đã cài: {C:inactive}{Hidden}"
+                "1 lần chơi với Seed đã cài: {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
-                "{C:blue}Phỉnh{} không thể vượt quá {C:money}${} hiện có"
+                "{C:blue}Xu{} không thể vượt quá {C:money}${} hiện có"
             },
             ch_c_none = {
                 "{C:inactive}Không Có"
@@ -4188,7 +4188,7 @@
                 "Vĩnh viễn tăng giá thêm {C:money}$1{} sau mỗi lần mua"
             },
             ch_c_discard_cost = {
-                "Mỗi lượt bỏ bài tốn {C:money}$#1#"
+                "Mỗi bỏ bài tốn {C:money}$#1#"
             },
             ch_c_all_eternal = {
                 "Tất cả Jokers đều {C:eternal}Vĩnh Hằng"
@@ -4237,50 +4237,50 @@
             },
             sb_2 = {
                 "Mục tiêu của bạn là đạt",
-                "đủ số {C:blue}Phỉnh{} để đánh bại",
-                "các {C:attention}Mốc Mù{}"
+                "đủ số {C:blue}Xu{} để đánh bại",
+                "các {C:attention}Mức Cược{}"
             },
             sb_3 = {
-                "Đây là {C:blue}Mù Nhỏ{},",
+                "Đây là {C:blue}Cược Nhỏ{},",
                 "bạn chỉ cần đạt ít nhất",
-                "{C:attention}300 Phỉnh{} để đánh bại nó."
+                "{C:attention}300 Xu{} để đánh bại nó."
             },
             sb_4 = {
-                "Chọn {C:blue}Mù Nhỏ",
-                "để bắt đầu ván chơi nào!"
+                "Chọn {C:blue}Cược Nhỏ",
+                "để bắt đầu vòng chơi nào!"
             },
             bb_1 = {
-                "Chọn tiếp đón {C:attention}Mù Lớn",
-                "sẽ được nhận chút tiền đó;"
+                "Chọn tiếp tục với {C:attention}Cược Lớn",
+                "sẽ được nhận thêm tiền đó;"
             },
             bb_2 = {
-                "Hoặc chọn {C:attention}bỏ qua nó",
+                "Hoặc có thể {C:attention}bỏ qua nó",
                 "để lấy một {C:attention}Nhãn{}! Mỗi",
-                "{C:attention}Nhãn{} có khả năng riêng"
+                "{C:attention}Nhãn{} sẽ có khả năng riêng"
             },
             bb_3 = {
                 "Nhưng nhớ để mắt đến",
-                "{C:attention}Mù Trùm{} nhé.",
+                "{C:attention}Cược Trùm{} nhé.",
                 "Nó không dễ dàng chút nào",
                 "nên bạn phải lên kế hoạch trước."
             },
             bb_4 = {
                 "nếu bạn đánh bại nó thì",
-                "sẽ thăng {C:attention}Ante{} và các",
-                "{C:attention}Mốc Mù{} sẽ trở nên khó hơn"
+                "sẽ thăng {C:attention}Bàn{} và các",
+                "{C:attention}Mức Cược{} sẽ trở nên khó hơn"
             },
             bb_5 = {
-                "Đánh bại {C:attention}Ante{} #1# để thắng.",
+                "Đánh bại #1# {C:attention}Bàn{} để chiến thắng.",
                 "Hãy chọn nền vă- nhầm,",
                 "lối đi đúng đắn nào!"
             },
             fh_1 = {
-                "Bạn nhận phỉnh bằng cách",
+                "Bạn nhận xu bằng cách",
                 "chơi các {C:attention}tay Poker"
             },
             fh_2 = {
                 "Mỗi {C:attention}tay Poker{} sẽ nhận",
-                "được một lượng {C:blue}Phỉnh{} chuẩn",
+                "được một lượng {C:blue}Xu{} chuẩn",
                 "nhân thêm hệ số {C:red}Nhân{} nào đó"
             },
             fh_3 = {
@@ -4291,7 +4291,7 @@
             },
             fh_4 = {
                 "Mấy lá bài cũng cho thêm",
-                "một lượng {C:blue}Phỉnh{} nào đó,",
+                "một lượng {C:blue}Xu{} nào đó,",
                 "lia chuột đến để xem thử nhé!"
             },
             fh_5 = {
@@ -4307,13 +4307,13 @@
             },
             fh_7 = {
                 "Cẩn thận! Bạn chỉ có hữu hạn",
-                "số {C:blue}Tay bài{} và",
-                "số {C:red}Lượt Bỏ Bài{} mỗi ván thôi"
+                "số {C:blue}Tay Bài{} và",
+                "số {C:red}Bỏ Bài{} mỗi vòng thôi"
             },
             fh_8 = {
-                "Đạt {C:attention}300 Phỉnh{} trước khi",
-                "bạn hết {C:blue}Tay bài",
-                "để thắng ván này.",
+                "Đạt {C:attention}300 Xu{} trước khi",
+                "bạn hết {C:blue}Tay Bài",
+                "để thắng vòng này.",
                 "Chúc may mắn!"
             },
             sh_1 = {
@@ -4381,7 +4381,7 @@
             s_10 = {
                 "{C:attention}Phiếu{} được thay mới",
                 "sau khi bạn đánh bại",
-                "{C:attention}Mù Trùm{}."
+                "{C:attention}Cược Trùm{}."
             },
             s_11 = {
                 "Và nhớ ngó thử mấy",
@@ -4391,7 +4391,7 @@
             },
             s_12 = {
                 "Giờ thì hãy sang",
-                "{C:attention}ván kế tiếp{} nào."
+                "{C:attention}vòng kế tiếp{} nào."
             }
         }
     }
